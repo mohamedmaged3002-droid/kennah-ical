@@ -1,0 +1,75 @@
+name: Sync Kennah iCal
+
+on:
+  schedule:
+    # HOURLY at :17 — not :00. Kennah-direct bookings must reach the OTAs before
+    # they resell the dates, and the chain is fetch -> Pages -> the OTA's own poll.
+    # The offset matters because GitHub deprioritises cron on public repos and the
+    # top of the hour is the global stampede; it also DROPS roughly a third of
+    # scheduled runs outright (measured on brassbell-ical, D-043). Hourly is what
+    # survives that: ~14-16 real runs/day and a mean gap near 1.5h.
+    #
+    # Hourly is affordable here in a way it is not for brassbell: Kennah returns
+    # all 366 nights of a unit in ONE GET, so a full run is ~62 requests and a
+    # few seconds — versus brassbell's Playwright probe of unit*night.
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: kennah-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'   # 22+ has native WebSocket, required by @supabase/supabase-js
+          cache: 'npm'
+
+      - run: npm ci
+
+      - run: npm test
+
+      - name: Fetch availability and build feeds
+        run: node sync.js
+
+      - name: Wire feed URLs into listing_ical
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node wire.js
+
+      - name: Sync nightly prices into unit_daily_prices
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node prices-sync.js
+
+      - name: Commit updated feeds
+        run: |
+          git config user.name  "kennah-ical[bot]"
+          git config user.email "kennah-ical@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "chore: sync kennah ical $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # A concurrent run or a manual push may have moved main. Retry, integrating
+          # remote each time and preferring our freshly-built feeds (L-062).
+          for i in 1 2 3 4 5; do
+            git push && { echo "Pushed (attempt $i)."; exit 0; }
+            echo "Push rejected; integrating remote and retrying ($i)..."
+            git fetch origin main
+            git merge -X ours --no-edit origin/main || true
+          done
+          echo "ERROR: push failed after 5 attempts"; exit 1
+
+      # LAST, deliberately: this step FAILS the run when a feed is stale and must
+      # not be able to cost us the push above (L-062). Red here means feeds
+      # published fine but a unit is serving old availability to the OTAs.
+      - name: Alarm on stale feeds
+        run: node check-stale.js

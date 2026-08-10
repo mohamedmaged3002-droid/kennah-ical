@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-10T13:38:03.898Z",
+  "source": "kennah",
+  "rosterCount": 62,
+  "mappedCount": 62,
+  "written": 56,
+  "skipped": [
+    {
+      "wp": 92009,
+      "slug": "akhdar-serviced-apartments-high-end-2-bedroom-in-central-maadi-sarayat",
+      "reason": "no-availability-data"
+    },
+    {
+      "wp": 92010,
+      "slug": "bustan-serviced-apartment-2-bedrooms-garden-apartment",
+      "reason": "no-availability-data"
+    },
+    {
+      "wp": 92021,
+      "slug": "hadiqa-serviced-apartment-bright-3-bedroom-apartment",
+      "reason": "no-availability-data"
+    },
+    {
+      "wp": 92027,
+      "slug": "lil-serviced-apartments-modern-2-bedrooms-in-central-maadi-sarayat",
+      "reason": "no-availability-data"
+    },
+    {
+      "wp": 92028,
+      "slug": "lotus-serviced-apartment-2-bedrooms-apartment",
+      "reason": "no-availability-data"
+    },
+    {
+      "wp": 92033,
+      "slug": "nahda-serviced-apartment-luxury-3-bedroom-apartment",
+      "reason": "no-availability-data"
+    }
+  ],
+  "missingFromRoster": [],
+  "unmappedOnSite": []
+}

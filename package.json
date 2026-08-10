@@ -1,0 +1,17 @@
+{
+  "name": "kennah-ical",
+  "version": "1.0.0",
+  "description": "Turns kennahstays.com availability into per-unit iCal feeds for BlueKeys calendar sync",
+  "main": "sync.js",
+  "scripts": {
+    "sync": "node sync.js",
+    "prices": "node prices-sync.js",
+    "wire": "node wire.js",
+    "stale": "node check-stale.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
+  }
+}

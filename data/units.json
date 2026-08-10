@@ -1,0 +1,560 @@
+[
+  {
+    "wp": 92001,
+    "slug": "2bdrm-arabesque-retreat",
+    "name": "2BDRM Arabesque Retreat",
+    "internalName": "A-C24-664",
+    "compound": "downtown",
+    "area": "Downtown",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92002,
+    "slug": "2bdrm-arabesque-retreat-stylish-escape-in-cairos-historic-heart",
+    "name": "2BDRM Arabesque Retreat - Stylish Escape in Cairo's Historic Heart",
+    "internalName": "A-C24-661",
+    "compound": "downtown",
+    "area": "Downtown",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92003,
+    "slug": "2bdrm-star-apartment-mohandessin",
+    "name": "2BDRM Star Apartment | Mohandessin",
+    "internalName": "M-105-904",
+    "compound": "mohandessin",
+    "area": "Giza",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92004,
+    "slug": "2bdrm-stylish-retreat-arabesque",
+    "name": "2BDRM Stylish Retreat | Arabesque",
+    "internalName": "A-C4-004",
+    "compound": "downtown",
+    "area": "Downtown",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92005,
+    "slug": "3bdrm-comfort-home-district-5",
+    "name": "3BDRM Comfort Home | District 5",
+    "internalName": "D5-NHF-6A-221",
+    "compound": "district-5",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92006,
+    "slug": "3bdrm-stylish-retreat-arabesque",
+    "name": "3BDRM Stylish Retreat | Arabesque",
+    "internalName": "A-C24-501",
+    "compound": "downtown",
+    "area": "Downtown",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92007,
+    "slug": "4br-modern-comfort-in-hyde-park-new-cairo",
+    "name": "4BR Modern Comfort in Hyde Park, New Cairo",
+    "internalName": "HP-03-2201",
+    "compound": "new-cairo",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92008,
+    "slug": "89b-16",
+    "name": "89B-106",
+    "internalName": "LVR-89B-106",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92009,
+    "slug": "akhdar-serviced-apartments-high-end-2-bedroom-in-central-maadi-sarayat",
+    "name": "Akhdar Serviced Apartments – High End  2-Bedroom in central Maadi-Sarayat",
+    "internalName": null,
+    "compound": "maadi",
+    "area": "Maadi",
+    "hasAvailability": false
+  },
+  {
+    "wp": 92010,
+    "slug": "bustan-serviced-apartment-2-bedrooms-garden-apartment",
+    "name": "Bustan Serviced Apartment – 2 Bedroom's Garden Apartment.",
+    "internalName": "",
+    "compound": "maadi",
+    "area": "Maadi",
+    "hasAvailability": false
+  },
+  {
+    "wp": 92011,
+    "slug": "catalina",
+    "name": "Catalina",
+    "internalName": "WGE-201-B",
+    "compound": "west-golf-extension",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92012,
+    "slug": "catalina-at-privado",
+    "name": "Catalina at Privado",
+    "internalName": "P-132-03-01-11",
+    "compound": "madinty",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92013,
+    "slug": "chill-swim-1br-october-city",
+    "name": "Chill & Swim | 1BR October City",
+    "internalName": "O-259-00-01",
+    "compound": "motamayez-mtmz",
+    "area": "October",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92014,
+    "slug": "city-central-2bdrm-apt-mohandessin",
+    "name": "City Central 2BDRM Apt. | Mohandessin",
+    "internalName": "M-105-901",
+    "compound": "mohandessin",
+    "area": "Giza",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92015,
+    "slug": "city-central-studio-retreat-apt-mohandessin",
+    "name": "City Central Studio Retreat Apt. | Mohandessin",
+    "internalName": "M-105-902",
+    "compound": "mohandessin",
+    "area": "Giza",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92016,
+    "slug": "cozy-duplex-apartment-cairo-heliopolis",
+    "name": "Cozy Duplex Apartment | Cairo Heliopolis",
+    "internalName": "MT-602-6-1",
+    "compound": "heliopolis",
+    "area": "Heliopolis",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92017,
+    "slug": "cozy-studio-in-the-heart-of-mohandessin",
+    "name": "Cozy Studio in the Heart of Mohandessin",
+    "internalName": "M-105-903",
+    "compound": "mohandessin",
+    "area": "Giza",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92018,
+    "slug": "festival-city-2br-maids-room-3-baths",
+    "name": "Festival City 2BR, Maid's Room, 3 Baths",
+    "internalName": "C-4200-441",
+    "compound": "new-cairo",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92019,
+    "slug": "garden-duplex-in-eastown-new-cairo-near-ednc-mall",
+    "name": "Garden Duplex in Eastown-New Cairo, Near EDNC Mall",
+    "internalName": "E-01-114",
+    "compound": "eastown",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92020,
+    "slug": "giza-comfort-stay-minutes-from-the-pyramids",
+    "name": "Giza Comfort Stay - Minutes from the Pyramids ",
+    "internalName": "PH-C3-02-10",
+    "compound": "pyramids-hills",
+    "area": "Giza",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92021,
+    "slug": "hadiqa-serviced-apartment-bright-3-bedroom-apartment",
+    "name": "Hadiqa Serviced Apartment – Bright 3 Bedroom Apartment",
+    "internalName": "",
+    "compound": "maadi",
+    "area": "Maadi",
+    "hasAvailability": false
+  },
+  {
+    "wp": 92022,
+    "slug": "heart-of-new-cairo-with-balcony",
+    "name": "Heart of New Cairo with Balcony",
+    "internalName": "SR-182-0-1",
+    "compound": "stone-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92023,
+    "slug": "heart-of-villette-sodic-new-cairo",
+    "name": "Heart of Villette Sodic | New Cairo",
+    "internalName": "V-G4-02-22",
+    "compound": "villette-sodic",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92024,
+    "slug": "heliopolis-near-citystars-almaza-mall",
+    "name": "Heliopolis Near Citystars & Almaza Mall",
+    "internalName": "H-237-4-10",
+    "compound": "heliopolis",
+    "area": "Heliopolis",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92025,
+    "slug": "kennah-2bdrm-apartment-la-mirada-new-cairo",
+    "name": "Kennah 2BDRM apartment | La Mirada, New Cairo ",
+    "internalName": "LM-02-111",
+    "compound": "new-cairo",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92026,
+    "slug": "lasciac-at-downtown-cairo-3br-near-tahrir-sq",
+    "name": "Lasciac at Downtown Cairo 3BR Near Tahrir Sq",
+    "internalName": "DT-05-09-01",
+    "compound": "downtown",
+    "area": "Downtown",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92027,
+    "slug": "lil-serviced-apartments-modern-2-bedrooms-in-central-maadi-sarayat",
+    "name": "Lil Serviced Apartments – Modern 2 Bedroom's in central Maadi-Sarayat",
+    "internalName": "",
+    "compound": "maadi",
+    "area": "Maadi",
+    "hasAvailability": false
+  },
+  {
+    "wp": 92028,
+    "slug": "lotus-serviced-apartment-2-bedrooms-apartment",
+    "name": "Lotus Serviced Apartment – 2 Bedroom's Apartment.",
+    "internalName": "",
+    "compound": "maadi",
+    "area": "Maadi",
+    "hasAvailability": false
+  },
+  {
+    "wp": 92029,
+    "slug": "lourina",
+    "name": "Lourina",
+    "internalName": "WGE-201-A",
+    "compound": "west-golf-extension",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92030,
+    "slug": "meraviglia-at-new-cairo-lake-view-residence",
+    "name": "Meraviglia at New Cairo Lake View Residence",
+    "internalName": "LVR-97B-212",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92031,
+    "slug": "milena",
+    "name": "Milena",
+    "internalName": "SR-269-103",
+    "compound": "stone-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92032,
+    "slug": "modern-3br-retreat-at-akoya-perfect-for-work-family-stays",
+    "name": "Modern 3BR Retreat at Akoya | Perfect for Work & Family Stays",
+    "internalName": "Ak-2-02-06",
+    "compound": "akoya-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92033,
+    "slug": "nahda-serviced-apartment-luxury-3-bedroom-apartment",
+    "name": "Nahda Serviced Apartment – Luxury 3 Bedroom Apartment.",
+    "internalName": "",
+    "compound": "maadi",
+    "area": "Maadi",
+    "hasAvailability": false
+  },
+  {
+    "wp": 92034,
+    "slug": "new-caiiro-sequoia",
+    "name": "New Caiiro, Sequoia",
+    "internalName": "SP-14-104",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92035,
+    "slug": "new-cairo-2bdrm-apt-auc-pearl-des-rois-comp",
+    "name": "New Cairo 2BDRM Apt, AUC | Pearl Des Rois Comp.",
+    "internalName": "PDR-B2-3308",
+    "compound": "new-cairo",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92036,
+    "slug": "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+    "name": "New Cairo 2BR Garden Apartment Near EDNC & CFC Mall",
+    "internalName": "ET-34-1B-02",
+    "compound": "eastown",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92037,
+    "slug": "new-cairo-4br-penthouse-with-private-pool",
+    "name": "New Cairo 4BR Penthouse with Private Pool",
+    "internalName": "LVR-12B-302",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92038,
+    "slug": "new-cairo-balboa",
+    "name": "New Cairo, Balboa",
+    "internalName": "SP-14-310",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92039,
+    "slug": "new-cairo-catalina",
+    "name": "New Cairo, Catalina",
+    "internalName": "SP-15-209",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92040,
+    "slug": "new-cairo-duplex-with-private-pool",
+    "name": "New Cairo Duplex with Private Pool",
+    "internalName": "LVR-10-003",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92041,
+    "slug": "new-cairo-elegant-skyline-studio-overlooking-mirage-golf",
+    "name": "New Cairo Elegant Skyline Studio Overlooking Mirage Golf",
+    "internalName": "MRC-04-403",
+    "compound": "golf-estate",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92042,
+    "slug": "new-cairo-golf-estate",
+    "name": "New cairo Golf Estate",
+    "internalName": "MRC-04-402",
+    "compound": "golf-estate",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92043,
+    "slug": "new-cairo-golf-estate-apartment-at-mirage-residence",
+    "name": "New Cairo Golf Estate Apartment at Mirage Residence",
+    "internalName": "MRC-04-4400",
+    "compound": "golf-estate",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92044,
+    "slug": "new-cairo-golf-estate-apartment-near-jw-marriott",
+    "name": "New Cairo Golf Estate Apartment near JW Marriott ",
+    "internalName": "MRC-404",
+    "compound": "golf-estate",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92045,
+    "slug": "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
+    "name": "New Cairo Golf Estate Duplex with Panoramic Golf View ",
+    "internalName": "MRC-504",
+    "compound": "golf-estate",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92046,
+    "slug": "new-cairo-hotspots-near-ednc-mall",
+    "name": "New Cairo Hotspots Near EDNC Mall ",
+    "internalName": "ET-24-2-24",
+    "compound": "eastown",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92047,
+    "slug": "new-cairo-meraviglia-4br",
+    "name": "New Cairo | Meraviglia 4BR",
+    "internalName": "SR-277-104",
+    "compound": "stone-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92048,
+    "slug": "new-cairo-milena",
+    "name": "New Cairo, Milena",
+    "internalName": "A-01-003",
+    "compound": "akoya-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92049,
+    "slug": "new-cairo-milena-2",
+    "name": "New Cairo, Milena",
+    "internalName": "SP-15-312",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92050,
+    "slug": "new-cairo-rivera",
+    "name": "New Cairo, Rivera",
+    "internalName": "SP-12-207",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92051,
+    "slug": "new-cairo-sahara",
+    "name": "New Cairo, Sahara",
+    "internalName": "SP-14-207",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92052,
+    "slug": "new-cairo-sakura",
+    "name": "New Cairo, Sakura",
+    "internalName": "SP-12-310",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92053,
+    "slug": "new-cairo-sequoia",
+    "name": "New Cairo, Sequoia",
+    "internalName": "A-11-106",
+    "compound": "akoya-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92054,
+    "slug": "new-cairo-varenna",
+    "name": "New Cairo, Varenna",
+    "internalName": "SP-12-104",
+    "compound": "silver-palm",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92055,
+    "slug": "october-city-2br-apartment-with-shared-pool",
+    "name": "October City | 2BR Apartment with Shared Pool",
+    "internalName": "O-259-00-02",
+    "compound": "motamayez-mtmz",
+    "area": "October",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92056,
+    "slug": "private-home-2bdrm-waterway-new-cairo",
+    "name": "Private Home 2BDRM | WaterWay, New Cairo",
+    "internalName": "W-07-331",
+    "compound": "new-cairo",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92057,
+    "slug": "rivera-at-new-cairo-lake-view-residence",
+    "name": "Rivera at New Cairo Lake View Residence",
+    "internalName": "LVR-71-105",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92058,
+    "slug": "sahara",
+    "name": "Sahara",
+    "internalName": "LVR-55B-304",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92059,
+    "slug": "sakura",
+    "name": "Sakura",
+    "internalName": "LVR-12B-303",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92060,
+    "slug": "sheikh-zayed-new-giza-near-gem-mall-of-arabia",
+    "name": "Sheikh Zayed | New Giza | Near GEM & Mall of Arabia.",
+    "internalName": "NG-5A-111",
+    "compound": "new-giza",
+    "area": "Shiekh Zayed",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92061,
+    "slug": "the-heart-of-heliopolis-at-76-el-hegaz-street",
+    "name": "The Heart of Heliopolis at 76 El Hegaz Street",
+    "internalName": "H-76-458",
+    "compound": "heliopolis",
+    "area": "Heliopolis",
+    "hasAvailability": true
+  },
+  {
+    "wp": 92062,
+    "slug": "varenna-at-new-cairo-lake-view-residence",
+    "name": "Varenna at New Cairo Lake View Residence",
+    "internalName": "LVR-28A-210",
+    "compound": "lake-view-residence",
+    "area": "New Cairo",
+    "hasAvailability": true
+  }
+]

@@ -52,7 +52,12 @@ async function main() {
     try {
       const d = await getApartment(u.slug);
       const av = Array.isArray(d.availability) ? d.availability : [];
-      const blockedDates = av.filter((a) => a.isAvailable === false).map((a) => String(a.date).slice(0, 10));
+      // `!== true`, NOT `=== false`. Anything that is not an explicit boolean true
+      // (null, undefined, a string, a missing key after an upstream schema change)
+      // must count as BLOCKED. Under-blocking re-opens a sold night; over-blocking
+      // only costs a booking. Kennah ships strict booleans today — this is the
+      // guard against the day it stops.
+      const blockedDates = av.filter((a) => a.isAvailable !== true).map((a) => String(a.date).slice(0, 10));
       return {
         ...u,
         ok: true,
@@ -61,6 +66,11 @@ async function main() {
         available: av.length - blockedDates.length,
         blockedDates,
         title: d.name || u.name,
+        // Upstream freshness signals — the guard refuses on these.
+        syncStatus: d.syncStatus,
+        lastSyncedAt: d.lastSyncedAt,
+        maintenanceMode: d.maintenanceMode,
+        firstDate: av.length ? String(av[0].date).slice(0, 10) : null,
       };
     } catch (e) {
       return { ...u, ok: false, reason: `fetch-failed: ${e.message}`, nights: 0, blocked: 0, available: 0 };
@@ -85,6 +95,11 @@ async function main() {
         area: r.area, compound: r.compound,
         nights: r.nights, blocked: r.blocked, availableCount: r.available,
         ranges: ranges.length, collapseStreak: 0,
+        // Persisted so the block-loss gate has a baseline and check-stale.js can
+        // alarm on the age of the DATA rather than the age of our own write.
+        syncStatus: r.syncStatus || null,
+        lastSyncedAt: r.lastSyncedAt || null,
+        firstDate: r.firstDate || null,
         updatedAt: new Date().toISOString(),
       });
     } else {

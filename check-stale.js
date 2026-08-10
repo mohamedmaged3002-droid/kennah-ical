@@ -15,13 +15,21 @@ const now = Date.now();
 const stale = [];
 for (const p of properties) {
   if (p.neverWritten) continue; // never published — not stale, just absent
-  if (!p.updatedAt) continue;
-  const ageH = (now - Date.parse(p.updatedAt)) / 36e5;
-  if (ageH > MAX_AGE_HOURS) stale.push({ wp: p.wp, slug: p.slug, ageHours: Math.round(ageH) });
+  // Alarm on the age of the DATA, not the age of our own write. sync.js resets
+  // updatedAt to now on every successful write, so a feed rebuilt hourly from a
+  // month-old upstream snapshot would look eternally fresh by that measure.
+  // lastSyncedAt is Kennah's own stamp and is the honest signal.
+  const stampedAt = p.lastSyncedAt || p.updatedAt;
+  if (!stampedAt) continue;
+  const ageH = (now - Date.parse(stampedAt)) / 36e5;
+  if (ageH > MAX_AGE_HOURS) {
+    stale.push({ wp: p.wp, slug: p.slug, ageHours: Math.round(ageH),
+                 basis: p.lastSyncedAt ? 'upstream lastSyncedAt' : 'our updatedAt' });
+  }
 }
 if (stale.length) {
   console.error(`STALE FEEDS (> ${MAX_AGE_HOURS}h):`);
-  for (const s of stale) console.error(`  ${s.wp} ${s.slug} — ${s.ageHours}h old`);
+  for (const s of stale) console.error(`  ${s.wp} ${s.slug} — ${s.ageHours}h old (${s.basis})`);
   process.exit(1);
 }
 console.log(`All ${properties.filter((p) => !p.neverWritten).length} published feeds fresh (< ${MAX_AGE_HOURS}h).`);

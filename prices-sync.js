@@ -31,9 +31,23 @@ async function main() {
     const av = Array.isArray(d.availability) ? d.availability : [];
     if (!av.length) { skipped.push(`${u.slug}: no availability`); return; }
 
+    // Same staleness refusal as the iCal guard, for the same reason: Kennah's
+    // availability array is a snapshot anchored at lastSyncedAt, not a rolling
+    // window. wp 92006 was 39 days stale, so its "prices" were a historical
+    // calendar. Writing those would price the wrong nights and leave the real
+    // future unpriced. Refusing simply leaves the dates BLOCKED, which is safe.
+    if (d.syncStatus && d.syncStatus !== 'success') { skipped.push(`${u.slug}: syncStatus=${d.syncStatus}`); return; }
+    if (d.maintenanceMode === true) { skipped.push(`${u.slug}: maintenanceMode`); return; }
+    if (d.lastSyncedAt && Date.now() - Date.parse(d.lastSyncedAt) > 48 * 3600 * 1000) {
+      skipped.push(`${u.slug}: upstream sync stale (${d.lastSyncedAt})`); return;
+    }
+
+    const today = new Date().toISOString().slice(0, 10);
     for (const a of av) {
       const usd = a[cfg.RATE_FIELD];
       if (typeof usd !== 'number' || !(usd > 0)) continue;
+      // Past dates are unsellable; writing them only bloats the table.
+      if (String(a.date).slice(0, 10) < today) continue;
       rows.push({
         wp_post_id: u.wp,
         date: String(a.date).slice(0, 10),

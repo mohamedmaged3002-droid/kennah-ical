@@ -1,10 +1,15 @@
 {
-  "generatedAt": "2026-08-10T13:38:03.898Z",
+  "generatedAt": "2026-08-10T14:15:34.938Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
-  "written": 56,
+  "written": 55,
   "skipped": [
+    {
+      "wp": 92006,
+      "slug": "3bdrm-stylish-retreat-arabesque",
+      "reason": "upstream-sync-stale"
+    },
     {
       "wp": 92009,
       "slug": "akhdar-serviced-apartments-high-end-2-bedroom-in-central-maadi-sarayat",

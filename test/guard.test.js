@@ -125,3 +125,15 @@ test('block loss is refused until enough runs agree, then accepted', () => {
 test('a healthy run with fresh upstream data still writes', () => {
   assert.equal(shouldWrite({ blocked: 11, availableCount: 355, collapseStreak: 0 }, healthy, N).write, true);
 });
+
+test('a refused unit whose .ics was deleted must not keep a live updatedAt', () => {
+  // 92006 regression: its bad feed was deleted, but the carried-forward index
+  // entry kept updatedAt from before the deletion, so check-stale.js alarmed
+  // hourly on a feed that did not exist. A held unit reports as held, not stale.
+  const prev = { wp: 92006, updatedAt: '2026-08-10T13:38:03.890Z', blocked: 7, availableCount: 359 };
+  const stillServed = false;
+  const carried = { ...prev, collapseStreak: 0, ...(stillServed ? {} : { updatedAt: null, neverWritten: true }) };
+  assert.equal(carried.updatedAt, null);
+  assert.equal(carried.neverWritten, true);
+  assert.equal(carried.blocked, 7, 'counters must survive so the block-loss gate keeps its baseline');
+});

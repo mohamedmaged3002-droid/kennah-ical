@@ -107,7 +107,16 @@ async function main() {
       // stale-feed alarm still sees its real updatedAt and the collapse gate can
       // accumulate agreement across runs.
       skipped.push({ wp: r.wp, slug: r.slug, reason: r.reason || verdict.reason });
-      if (prev) properties.push({ ...prev, collapseStreak: verdict.collapseStreak });
+      // Carrying prev forward is right while a last-good .ics is still being
+      // served. If that file is gone (deleted because it was wrong), its
+      // updatedAt describes nothing — keep the counters, drop the timestamp,
+      // and say plainly that nothing is published.
+      const stillServed = fs.existsSync(icsPath);
+      if (prev) properties.push({
+        ...prev,
+        collapseStreak: verdict.collapseStreak,
+        ...(stillServed ? {} : { updatedAt: null, neverWritten: true }),
+      });
       else properties.push({
         wp: r.wp, slug: r.slug, name: r.name, internalName: r.internalName,
         area: r.area, compound: r.compound,

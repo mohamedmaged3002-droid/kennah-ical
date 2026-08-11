@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:31:03.545Z",
+  "generatedAt": "2026-08-11T04:43:13.510Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
@@ -57,9 +57,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:00:05.954Z",
+      "lastSyncedAt": "2026-08-11T02:30:03.380Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.542Z"
+      "updatedAt": "2026-08-11T04:43:13.506Z"
     },
     {
       "wp": 92002,
@@ -74,9 +74,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T00:30:03.660Z",
+      "lastSyncedAt": "2026-08-11T04:30:03.444Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.542Z"
+      "updatedAt": "2026-08-11T04:43:13.506Z"
     },
     {
       "wp": 92003,
@@ -93,7 +93,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.358Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.542Z"
+      "updatedAt": "2026-08-11T04:43:13.506Z"
     },
     {
       "wp": 92004,
@@ -108,9 +108,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T01:00:04.290Z",
+      "lastSyncedAt": "2026-08-11T04:30:03.335Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.542Z"
+      "updatedAt": "2026-08-11T04:43:13.506Z"
     },
     {
       "wp": 92005,
@@ -125,9 +125,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:30:03.365Z",
+      "lastSyncedAt": "2026-08-11T00:30:03.602Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.542Z"
+      "updatedAt": "2026-08-11T04:43:13.506Z"
     },
     {
       "wp": 92006,
@@ -156,9 +156,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T00:30:03.509Z",
+      "lastSyncedAt": "2026-08-11T02:30:03.306Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.506Z"
     },
     {
       "wp": 92008,
@@ -167,15 +167,15 @@
       "internalName": "LVR-89B-106",
       "area": "New Cairo",
       "compound": "lake-view-residence",
-      "nights": 366,
-      "blocked": 19,
+      "nights": 365,
+      "blocked": 18,
       "availableCount": 347,
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.769Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "lastSyncedAt": "2026-08-11T03:00:03.455Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92009,
@@ -222,7 +222,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.163Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92012,
@@ -237,9 +237,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:30:03.157Z",
+      "lastSyncedAt": "2026-08-11T04:00:03.558Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92013,
@@ -248,15 +248,15 @@
       "internalName": "O-259-00-01",
       "area": "October",
       "compound": "motamayez-mtmz",
-      "nights": 366,
-      "blocked": 3,
+      "nights": 365,
+      "blocked": 2,
       "availableCount": 363,
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.938Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "lastSyncedAt": "2026-08-11T02:30:03.210Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92014,
@@ -273,7 +273,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.328Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92015,
@@ -288,9 +288,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T01:30:03.394Z",
+      "lastSyncedAt": "2026-08-11T03:00:03.754Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92016,
@@ -307,7 +307,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.190Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92017,
@@ -322,9 +322,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T00:00:06.866Z",
+      "lastSyncedAt": "2026-08-11T02:30:03.353Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92018,
@@ -341,7 +341,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.371Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92019,
@@ -356,9 +356,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:00:05.841Z",
+      "lastSyncedAt": "2026-08-11T02:30:03.302Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.543Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92020,
@@ -373,9 +373,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T00:30:03.464Z",
+      "lastSyncedAt": "2026-08-11T02:30:03.291Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.507Z"
     },
     {
       "wp": 92021,
@@ -399,15 +399,15 @@
       "internalName": "SR-182-0-1",
       "area": "New Cairo",
       "compound": "stone-residence",
-      "nights": 366,
-      "blocked": 15,
+      "nights": 365,
+      "blocked": 14,
       "availableCount": 351,
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.921Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "lastSyncedAt": "2026-08-11T04:00:03.603Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92023,
@@ -424,7 +424,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.175Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92024,
@@ -433,15 +433,15 @@
       "internalName": "H-237-4-10",
       "area": "Heliopolis",
       "compound": "heliopolis",
-      "nights": 366,
-      "blocked": 51,
+      "nights": 365,
+      "blocked": 50,
       "availableCount": 315,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.909Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "lastSyncedAt": "2026-08-11T04:30:03.239Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92025,
@@ -456,9 +456,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:30:03.375Z",
+      "lastSyncedAt": "2026-08-11T01:30:03.455Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92026,
@@ -473,9 +473,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:25:49.410Z",
+      "lastSyncedAt": "2026-08-11T04:30:03.230Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92027,
@@ -514,15 +514,15 @@
       "internalName": "WGE-201-A",
       "area": "New Cairo",
       "compound": "west-golf-extension",
-      "nights": 366,
-      "blocked": 22,
+      "nights": 365,
+      "blocked": 21,
       "availableCount": 344,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.452Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "lastSyncedAt": "2026-08-11T02:30:02.911Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92030,
@@ -539,7 +539,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:02.890Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92031,
@@ -548,15 +548,15 @@
       "internalName": "SR-269-103",
       "area": "New Cairo",
       "compound": "stone-residence",
-      "nights": 366,
-      "blocked": 5,
+      "nights": 365,
+      "blocked": 4,
       "availableCount": 361,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.776Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "lastSyncedAt": "2026-08-11T04:00:03.481Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92032,
@@ -573,7 +573,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.251Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.508Z"
     },
     {
       "wp": 92033,
@@ -605,7 +605,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.014Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92035,
@@ -620,9 +620,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T00:30:03.515Z",
+      "lastSyncedAt": "2026-08-11T02:30:03.310Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92036,
@@ -639,7 +639,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:02.918Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92037,
@@ -654,9 +654,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:00:05.572Z",
+      "lastSyncedAt": "2026-08-11T02:30:03.062Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92038,
@@ -665,15 +665,15 @@
       "internalName": "SP-14-310",
       "area": "New Cairo",
       "compound": "silver-palm",
-      "nights": 365,
-      "blocked": 9,
+      "nights": 366,
+      "blocked": 10,
       "availableCount": 356,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:30:03.030Z",
-      "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "lastSyncedAt": "2026-08-10T23:30:03.636Z",
+      "firstDate": "2026-08-10",
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92039,
@@ -682,15 +682,15 @@
       "internalName": "SP-15-209",
       "area": "New Cairo",
       "compound": "silver-palm",
-      "nights": 366,
-      "blocked": 5,
+      "nights": 365,
+      "blocked": 4,
       "availableCount": 361,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.652Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.544Z"
+      "lastSyncedAt": "2026-08-11T04:30:03.058Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92040,
@@ -705,9 +705,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:30:03.056Z",
+      "lastSyncedAt": "2026-08-11T03:00:03.308Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92041,
@@ -716,15 +716,15 @@
       "internalName": "MRC-04-403",
       "area": "New Cairo",
       "compound": "golf-estate",
-      "nights": 366,
-      "blocked": 6,
+      "nights": 365,
+      "blocked": 5,
       "availableCount": 360,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.810Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T02:30:03.120Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92042,
@@ -741,7 +741,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.098Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92043,
@@ -750,15 +750,15 @@
       "internalName": "MRC-04-4400",
       "area": "New Cairo",
       "compound": "golf-estate",
-      "nights": 366,
-      "blocked": 2,
+      "nights": 365,
+      "blocked": 1,
       "availableCount": 364,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.816Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T02:30:03.126Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92044,
@@ -775,7 +775,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.170Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92045,
@@ -784,15 +784,15 @@
       "internalName": "MRC-504",
       "area": "New Cairo",
       "compound": "golf-estate",
-      "nights": 366,
-      "blocked": 13,
+      "nights": 365,
+      "blocked": 12,
       "availableCount": 353,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.790Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T02:30:03.112Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92046,
@@ -807,9 +807,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:30:03.281Z",
+      "lastSyncedAt": "2026-08-11T03:00:03.663Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92047,
@@ -818,15 +818,15 @@
       "internalName": "SR-277-104",
       "area": "New Cairo",
       "compound": "stone-residence",
-      "nights": 366,
-      "blocked": 7,
+      "nights": 365,
+      "blocked": 6,
       "availableCount": 359,
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.493Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T02:30:02.926Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92048,
@@ -841,9 +841,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T02:30:02.904Z",
+      "lastSyncedAt": "2026-08-11T04:00:03.343Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.509Z"
     },
     {
       "wp": 92049,
@@ -852,15 +852,15 @@
       "internalName": "SP-15-312",
       "area": "New Cairo",
       "compound": "silver-palm",
-      "nights": 366,
-      "blocked": 5,
+      "nights": 365,
+      "blocked": 4,
       "availableCount": 361,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.823Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T04:00:03.522Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92050,
@@ -877,7 +877,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:02.995Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92051,
@@ -886,15 +886,15 @@
       "internalName": "SP-14-207",
       "area": "New Cairo",
       "compound": "silver-palm",
-      "nights": 366,
-      "blocked": 18,
+      "nights": 365,
+      "blocked": 17,
       "availableCount": 348,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.617Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T02:30:03.021Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92052,
@@ -911,7 +911,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.008Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92053,
@@ -920,15 +920,15 @@
       "internalName": "A-11-106",
       "area": "New Cairo",
       "compound": "akoya-residence",
-      "nights": 366,
-      "blocked": 10,
+      "nights": 365,
+      "blocked": 9,
       "availableCount": 356,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.514Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T04:30:02.998Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92054,
@@ -943,9 +943,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T01:00:03.448Z",
+      "lastSyncedAt": "2026-08-11T04:00:03.324Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92055,
@@ -962,7 +962,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.224Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92056,
@@ -979,7 +979,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.314Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92057,
@@ -988,15 +988,15 @@
       "internalName": "LVR-71-105",
       "area": "New Cairo",
       "compound": "lake-view-residence",
-      "nights": 366,
-      "blocked": 6,
+      "nights": 365,
+      "blocked": 5,
       "availableCount": 360,
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.659Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T03:30:02.596Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92058,
@@ -1013,7 +1013,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.077Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92059,
@@ -1022,15 +1022,15 @@
       "internalName": "LVR-12B-303",
       "area": "New Cairo",
       "compound": "lake-view-residence",
-      "nights": 366,
-      "blocked": 37,
+      "nights": 365,
+      "blocked": 36,
       "availableCount": 329,
       "ranges": 9,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:03.743Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T02:30:03.071Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92060,
@@ -1047,7 +1047,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.152Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92061,
@@ -1056,15 +1056,15 @@
       "internalName": "H-76-458",
       "area": "Heliopolis",
       "compound": "heliopolis",
-      "nights": 366,
-      "blocked": 5,
+      "nights": 365,
+      "blocked": 4,
       "availableCount": 361,
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-10T23:30:04.002Z",
-      "firstDate": "2026-08-10",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "lastSyncedAt": "2026-08-11T02:30:03.297Z",
+      "firstDate": "2026-08-11",
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     },
     {
       "wp": 92062,
@@ -1081,7 +1081,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T02:30:03.050Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T02:31:03.545Z"
+      "updatedAt": "2026-08-11T04:43:13.510Z"
     }
   ]
 }

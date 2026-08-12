@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-12T18:12:07.087Z",
+  "generatedAt": "2026-08-12T19:30:31.366Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
-  "written": 55,
+  "written": 53,
   "skipped": [
     {
       "wp": 92006,
@@ -39,6 +39,16 @@
       "wp": 92033,
       "slug": "nahda-serviced-apartment-luxury-3-bedroom-apartment",
       "reason": "no-availability-data"
+    },
+    {
+      "wp": 92050,
+      "slug": "new-cairo-rivera",
+      "reason": "block-loss"
+    },
+    {
+      "wp": 92052,
+      "slug": "new-cairo-sakura",
+      "reason": "block-loss"
     }
   ],
   "missingFromRoster": [],

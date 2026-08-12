@@ -1,24 +1,14 @@
 {
-  "generatedAt": "2026-08-12T02:48:33.963Z",
+  "generatedAt": "2026-08-12T05:08:21.672Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
-  "written": 48,
+  "written": 55,
   "skipped": [
     {
       "wp": 92006,
       "slug": "3bdrm-stylish-retreat-arabesque",
       "reason": "upstream-sync-stale"
-    },
-    {
-      "wp": 92007,
-      "slug": "4br-modern-comfort-in-hyde-park-new-cairo",
-      "reason": "fetch-failed: HTTP 502 for apartments/4br-modern-comfort-in-hyde-park-new-cairo"
-    },
-    {
-      "wp": 92008,
-      "slug": "89b-16",
-      "reason": "fetch-failed: HTTP 502 for apartments/89b-16"
     },
     {
       "wp": 92009,
@@ -28,32 +18,7 @@
     {
       "wp": 92010,
       "slug": "bustan-serviced-apartment-2-bedrooms-garden-apartment",
-      "reason": "fetch-failed: HTTP 502 for apartments/bustan-serviced-apartment-2-bedrooms-garden-apartment"
-    },
-    {
-      "wp": 92011,
-      "slug": "catalina",
-      "reason": "fetch-failed: HTTP 502 for apartments/catalina"
-    },
-    {
-      "wp": 92012,
-      "slug": "catalina-at-privado",
-      "reason": "fetch-failed: HTTP 502 for apartments/catalina-at-privado"
-    },
-    {
-      "wp": 92015,
-      "slug": "city-central-studio-retreat-apt-mohandessin",
-      "reason": "fetch-failed: HTTP 502 for apartments/city-central-studio-retreat-apt-mohandessin"
-    },
-    {
-      "wp": 92016,
-      "slug": "cozy-duplex-apartment-cairo-heliopolis",
-      "reason": "fetch-failed: HTTP 502 for apartments/cozy-duplex-apartment-cairo-heliopolis"
-    },
-    {
-      "wp": 92019,
-      "slug": "garden-duplex-in-eastown-new-cairo-near-ednc-mall",
-      "reason": "fetch-failed: HTTP 502 for apartments/garden-duplex-in-eastown-new-cairo-near-ednc-mall"
+      "reason": "no-availability-data"
     },
     {
       "wp": 92021,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T23:06:16.216Z",
+  "generatedAt": "2026-08-12T00:02:37.449Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
@@ -57,9 +57,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:30:04.366Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.432Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.207Z"
+      "updatedAt": "2026-08-12T00:02:37.441Z"
     },
     {
       "wp": 92002,
@@ -76,7 +76,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T22:00:07.504Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.208Z"
+      "updatedAt": "2026-08-12T00:02:37.442Z"
     },
     {
       "wp": 92003,
@@ -93,7 +93,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T22:00:07.468Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.208Z"
+      "updatedAt": "2026-08-12T00:02:37.442Z"
     },
     {
       "wp": 92004,
@@ -108,9 +108,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T23:00:31.375Z",
+      "lastSyncedAt": "2026-08-11T22:00:07.341Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.208Z"
+      "updatedAt": "2026-08-12T00:02:37.442Z"
     },
     {
       "wp": 92005,
@@ -120,14 +120,14 @@
       "area": "New Cairo",
       "compound": "district-5",
       "nights": 366,
-      "blocked": 34,
-      "availableCount": 332,
-      "ranges": 2,
+      "blocked": 35,
+      "availableCount": 331,
+      "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:05.084Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.413Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.208Z"
+      "updatedAt": "2026-08-12T00:02:37.442Z"
     },
     {
       "wp": 92006,
@@ -157,9 +157,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.316Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.358Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.209Z"
+      "updatedAt": "2026-08-12T00:02:37.443Z"
     },
     {
       "wp": 92008,
@@ -174,9 +174,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.872Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.195Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.209Z"
+      "updatedAt": "2026-08-12T00:02:37.443Z"
     },
     {
       "wp": 92009,
@@ -221,9 +221,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.072Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.261Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.209Z"
+      "updatedAt": "2026-08-12T00:02:37.443Z"
     },
     {
       "wp": 92012,
@@ -238,9 +238,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:30:03.791Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.251Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.210Z"
+      "updatedAt": "2026-08-12T00:02:37.443Z"
     },
     {
       "wp": 92013,
@@ -250,14 +250,14 @@
       "area": "October",
       "compound": "motamayez-mtmz",
       "nights": 366,
-      "blocked": 2,
-      "availableCount": 364,
+      "blocked": 3,
+      "availableCount": 363,
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:04.873Z",
+      "lastSyncedAt": "2026-08-11T22:00:07.210Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.210Z"
+      "updatedAt": "2026-08-12T00:02:37.443Z"
     },
     {
       "wp": 92014,
@@ -274,7 +274,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T22:00:07.385Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.210Z"
+      "updatedAt": "2026-08-12T00:02:37.444Z"
     },
     {
       "wp": 92015,
@@ -289,9 +289,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:30:04.296Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.389Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.210Z"
+      "updatedAt": "2026-08-12T00:02:37.444Z"
     },
     {
       "wp": 92016,
@@ -306,9 +306,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.151Z",
+      "lastSyncedAt": "2026-08-11T23:30:04.055Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.210Z"
+      "updatedAt": "2026-08-12T00:02:37.444Z"
     },
     {
       "wp": 92017,
@@ -323,9 +323,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T23:00:31.398Z",
+      "lastSyncedAt": "2026-08-11T22:00:07.456Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.210Z"
+      "updatedAt": "2026-08-12T00:02:37.444Z"
     },
     {
       "wp": 92018,
@@ -340,9 +340,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.480Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.417Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.210Z"
+      "updatedAt": "2026-08-12T00:02:37.444Z"
     },
     {
       "wp": 92019,
@@ -357,9 +357,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.308Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.348Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.211Z"
+      "updatedAt": "2026-08-12T00:02:37.444Z"
     },
     {
       "wp": 92020,
@@ -374,9 +374,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.283Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.332Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.211Z"
+      "updatedAt": "2026-08-12T00:02:37.444Z"
     },
     {
       "wp": 92021,
@@ -406,9 +406,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.183Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.300Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.211Z"
+      "updatedAt": "2026-08-12T00:02:37.445Z"
     },
     {
       "wp": 92023,
@@ -423,9 +423,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.092Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.274Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.211Z"
+      "updatedAt": "2026-08-12T00:02:37.445Z"
     },
     {
       "wp": 92024,
@@ -440,9 +440,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:04.845Z",
+      "lastSyncedAt": "2026-08-11T22:00:07.144Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.212Z"
+      "updatedAt": "2026-08-12T00:02:37.445Z"
     },
     {
       "wp": 92025,
@@ -457,9 +457,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:05.097Z",
+      "lastSyncedAt": "2026-08-11T22:30:04.770Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.212Z"
+      "updatedAt": "2026-08-12T00:02:37.445Z"
     },
     {
       "wp": 92026,
@@ -474,9 +474,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T23:00:31.278Z",
+      "lastSyncedAt": "2026-08-11T23:30:04.031Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.212Z"
+      "updatedAt": "2026-08-12T00:02:37.445Z"
     },
     {
       "wp": 92027,
@@ -521,9 +521,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.437Z",
+      "lastSyncedAt": "2026-08-11T23:30:03.683Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.212Z"
+      "updatedAt": "2026-08-12T00:02:37.446Z"
     },
     {
       "wp": 92030,
@@ -538,9 +538,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:30:03.964Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.018Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.213Z"
+      "updatedAt": "2026-08-12T00:02:37.446Z"
     },
     {
       "wp": 92031,
@@ -555,9 +555,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.886Z",
+      "lastSyncedAt": "2026-08-11T23:30:03.930Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.213Z"
+      "updatedAt": "2026-08-12T00:02:37.446Z"
     },
     {
       "wp": 92032,
@@ -572,9 +572,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.242Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.318Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.213Z"
+      "updatedAt": "2026-08-12T00:02:37.446Z"
     },
     {
       "wp": 92033,
@@ -604,9 +604,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:30:04.030Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.107Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.213Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92035,
@@ -621,9 +621,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.323Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.363Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.213Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92036,
@@ -638,9 +638,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:04.395Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.052Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.213Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92037,
@@ -655,9 +655,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:04.512Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.176Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92038,
@@ -672,9 +672,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.703Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.132Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92039,
@@ -689,9 +689,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.770Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.144Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92040,
@@ -706,9 +706,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:04.505Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.167Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92041,
@@ -723,9 +723,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T21:00:04.583Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.221Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92042,
@@ -740,9 +740,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.896Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.209Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.447Z"
     },
     {
       "wp": 92043,
@@ -757,9 +757,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.984Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.231Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92044,
@@ -774,9 +774,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:30:04.489Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.265Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92045,
@@ -791,9 +791,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T20:03:44.240Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.217Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92046,
@@ -808,9 +808,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.276Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.327Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.214Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92047,
@@ -825,9 +825,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.485Z",
+      "lastSyncedAt": "2026-08-11T23:30:03.716Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92048,
@@ -842,9 +842,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.430Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.032Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92049,
@@ -859,9 +859,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.029Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.236Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92050,
@@ -876,9 +876,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.502Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.085Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92051,
@@ -893,9 +893,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:30:04.044Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.119Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92052,
@@ -910,9 +910,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.516Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.096Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92053,
@@ -927,9 +927,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.491Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.074Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92054,
@@ -946,7 +946,7 @@
       "syncStatus": "success",
       "lastSyncedAt": "2026-08-11T22:30:03.957Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92055,
@@ -956,14 +956,14 @@
       "area": "October",
       "compound": "motamayez-mtmz",
       "nights": 366,
-      "blocked": 11,
-      "availableCount": 355,
-      "ranges": 1,
+      "blocked": 10,
+      "availableCount": 356,
+      "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.228Z",
+      "lastSyncedAt": "2026-08-11T21:00:04.885Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.448Z"
     },
     {
       "wp": 92056,
@@ -978,9 +978,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.333Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.371Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.449Z"
     },
     {
       "wp": 92057,
@@ -995,9 +995,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:30:04.078Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.150Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.215Z"
+      "updatedAt": "2026-08-12T00:02:37.449Z"
     },
     {
       "wp": 92058,
@@ -1012,9 +1012,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.842Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.190Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.216Z"
+      "updatedAt": "2026-08-12T00:02:37.449Z"
     },
     {
       "wp": 92059,
@@ -1029,9 +1029,9 @@
       "ranges": 8,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.831Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.181Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.216Z"
+      "updatedAt": "2026-08-12T00:02:37.449Z"
     },
     {
       "wp": 92060,
@@ -1046,9 +1046,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.040Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.246Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.216Z"
+      "updatedAt": "2026-08-12T00:02:37.449Z"
     },
     {
       "wp": 92061,
@@ -1063,9 +1063,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:07.292Z",
+      "lastSyncedAt": "2026-08-11T23:30:04.115Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.216Z"
+      "updatedAt": "2026-08-12T00:02:37.449Z"
     },
     {
       "wp": 92062,
@@ -1080,9 +1080,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-11T22:00:06.796Z",
+      "lastSyncedAt": "2026-08-11T23:00:31.162Z",
       "firstDate": "2026-08-11",
-      "updatedAt": "2026-08-11T23:06:16.216Z"
+      "updatedAt": "2026-08-12T00:02:37.449Z"
     }
   ]
 }

@@ -1,0 +1,71 @@
+name: Kennah Price Watch
+
+on:
+  schedule:
+    # Daily at 05:12 UTC (~07:12 Cairo) — a morning digest, deliberately NOT hourly.
+    # Kennah publishes seasonal bands that move rarely; an hourly price email would
+    # be noise and would train the team to filter it, which is how the alert that
+    # finally matters gets missed.
+    - cron: '12 5 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Fetch + diff only — no artifacts, no email, baseline untouched'
+        type: boolean
+        default: false
+
+# Shared with sync.yml so a price harvest and an iCal sync never hit kennahstays.com
+# together. Never cancel-in-progress: a half-finished run means no digest that day.
+concurrency:
+  group: kennah-fetch
+  cancel-in-progress: false
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: npm ci
+      - run: pip install --quiet openpyxl
+
+      - name: Fetch Kennah prices and diff against the baseline
+        run: node price-watch.js ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Build the changed-units sheet
+        if: ${{ inputs.dry_run != true }}
+        run: python build-changes.py
+
+      - name: Email the digest — only when something actually changed
+        if: ${{ inputs.dry_run != true }}
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: node send-alert.js
+
+      - name: Commit the advanced baseline
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name  "kennah-ical[bot]"
+          git config user.email "kennah-ical@users.noreply.github.com"
+          git add data/price-baseline.json
+          if git diff --cached --quiet; then echo "No price movement"; exit 0; fi
+          git commit -m "chore: kennah price baseline $(date -u '+%Y-%m-%d')"
+          # sync.yml commits docs/ hourly and may have moved main under us (L-062).
+          for i in 1 2 3 4 5; do
+            git push && { echo "Pushed (attempt $i)."; exit 0; }
+            git fetch origin main
+            git merge -X ours --no-edit origin/main || true
+          done
+          echo "ERROR: push failed after 5 attempts"; exit 1

@@ -137,3 +137,46 @@ test('a refused unit whose .ics was deleted must not keep a live updatedAt', () 
   assert.equal(carried.neverWritten, true);
   assert.equal(carried.blocked, 7, 'counters must survive so the block-loss gate keeps its baseline');
 });
+
+// ---- price watch ----
+const { toRanges: priceRanges, diffPrices, buildMessage } = require('../src/pricediff');
+
+const unit = (price, from = '2026-09-01', to = '2026-09-10') =>
+  ({ name: 'T', ranges: [{ from, to, price }] });
+
+test('a quiet day produces no message, so no email', () => {
+  assert.equal(buildMessage(diffPrices({ 92001: unit(100) }, { 92001: unit(100) })), null);
+});
+
+test('a real reprice is detected with direction and night count', () => {
+  const d = diffPrices({ 92001: unit(100) }, { 92001: unit(120) });
+  assert.equal(d.changed.length, 1);
+  assert.equal(d.changed[0].count, 10);
+  assert.equal(d.changed[0].direction, 'increase');
+});
+
+test('the rolling 366-day window growing is NOT a price change', () => {
+  // Kennah's calendar gains a night at the tail every day. Counting that would
+  // email a change daily forever and the digest would become noise.
+  const base = { 92001: unit(100, '2026-09-01', '2026-09-05') };
+  const cur = { 92001: unit(100, '2026-09-01', '2026-09-09') };
+  assert.equal(buildMessage(diffPrices(base, cur)), null);
+});
+
+test('roster drift is reported in both directions', () => {
+  const d = diffPrices({ 92001: unit(100) }, { 92002: unit(100) });
+  assert.deepEqual(d.added, [92002]);
+  assert.deepEqual(d.removed, [92001]);
+  assert.match(buildMessage(d).emailSubject, /new/);
+});
+
+test('price ranges round-trip contiguous nights into one run', () => {
+  const rows = [
+    { date: '2026-09-01', price: 100 }, { date: '2026-09-02', price: 100 },
+    { date: '2026-09-03', price: 120 },
+  ];
+  assert.deepEqual(priceRanges(rows), [
+    { from: '2026-09-01', to: '2026-09-02', price: 100 },
+    { from: '2026-09-03', to: '2026-09-03', price: 120 },
+  ]);
+});

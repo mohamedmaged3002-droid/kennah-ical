@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-15T20:10:56.349Z",
+  "generatedAt": "2026-08-16T03:11:19.168Z",
   "unitCount": 55,
   "units": {
     "92001": {
       "name": "2BDRM Arabesque Retreat",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-11-30",
           "price": 70
         },
@@ -21,7 +21,7 @@
       "name": "2BDRM Arabesque Retreat - Stylish Escape in Cairo's Historic Heart",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2027-08-15",
           "price": 70
         }
@@ -31,7 +31,7 @@
       "name": "2BDRM Star Apartment | Mohandessin",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-09-30",
           "price": 70
         },
@@ -46,7 +46,7 @@
       "name": "2BDRM Stylish Retreat | Arabesque",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-09-30",
           "price": 70
         },
@@ -61,7 +61,7 @@
       "name": "3BDRM Comfort Home | District 5",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2027-01-31",
           "price": 111
         },
@@ -76,7 +76,7 @@
       "name": "4BR Modern Comfort in Hyde Park, New Cairo",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-11-15",
           "price": 167
         },
@@ -96,7 +96,7 @@
       "name": "89B-106",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 167
         },
@@ -121,7 +121,7 @@
       "name": "Catalina",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-22",
           "price": 200
         },
@@ -146,7 +146,7 @@
       "name": "Catalina at Privado",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-23",
           "price": 67
         },
@@ -171,7 +171,7 @@
       "name": "Chill & Swim | 1BR October City",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 70
         },
@@ -196,7 +196,7 @@
       "name": "City Central 2BDRM Apt. | Mohandessin",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-09-30",
           "price": 70
         },
@@ -211,7 +211,7 @@
       "name": "City Central Studio Retreat Apt. | Mohandessin",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-09-30",
           "price": 60
         },
@@ -226,7 +226,7 @@
       "name": "Cozy Duplex Apartment | Cairo Heliopolis",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 78
         },
@@ -251,7 +251,7 @@
       "name": "Cozy Studio in the Heart of Mohandessin",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-09-30",
           "price": 60
         },
@@ -266,7 +266,7 @@
       "name": "Festival City 2BR, Maid's Room, 3 Baths",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2027-08-15",
           "price": 120
         }
@@ -276,7 +276,7 @@
       "name": "Garden Duplex in Eastown-New Cairo, Near EDNC Mall",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 180
         },
@@ -301,7 +301,7 @@
       "name": "Giza Comfort Stay - Minutes from the Pyramids ",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 78
         },
@@ -331,7 +331,7 @@
       "name": "Heart of New Cairo with Balcony",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -361,7 +361,7 @@
       "name": "Heart of Villette Sodic | New Cairo",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-10-31",
           "price": 80
         },
@@ -386,7 +386,7 @@
       "name": "Heliopolis Near Citystars & Almaza Mall",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 78
         },
@@ -416,7 +416,7 @@
       "name": "Kennah 2BDRM apartment | La Mirada, New Cairo ",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-09-30",
           "price": 70
         },
@@ -431,7 +431,7 @@
       "name": "Lasciac at Downtown Cairo 3BR Near Tahrir Sq",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 150
         },
@@ -456,7 +456,7 @@
       "name": "Lourina",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 120
         },
@@ -481,7 +481,7 @@
       "name": "Meraviglia at New Cairo Lake View Residence",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-22",
           "price": 146
         },
@@ -516,7 +516,7 @@
       "name": "Milena",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -546,7 +546,7 @@
       "name": "Modern 3BR Retreat at Akoya | Perfect for Work & Family Stays",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-11-15",
           "price": 134
         },
@@ -566,7 +566,7 @@
       "name": "New Caiiro, Sequoia",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -591,7 +591,7 @@
       "name": "New Cairo 2BDRM Apt, AUC | Pearl Des Rois Comp.",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-10-31",
           "price": 70
         },
@@ -606,7 +606,7 @@
       "name": "New Cairo 2BR Garden Apartment Near EDNC & CFC Mall",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-23",
           "price": 174
         },
@@ -631,7 +631,7 @@
       "name": "New Cairo 4BR Penthouse with Private Pool",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 333
         },
@@ -661,7 +661,7 @@
       "name": "New Cairo, Balboa",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -686,7 +686,7 @@
       "name": "New Cairo, Catalina",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -711,7 +711,7 @@
       "name": "New Cairo Duplex with Private Pool",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-12-31",
           "price": 300
         },
@@ -726,7 +726,7 @@
       "name": "New Cairo Elegant Skyline Studio Overlooking Mirage Golf",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 111
         },
@@ -756,7 +756,7 @@
       "name": "New cairo Golf Estate",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 111
         },
@@ -786,7 +786,7 @@
       "name": "New Cairo Golf Estate Apartment at Mirage Residence",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 167
         },
@@ -816,7 +816,7 @@
       "name": "New Cairo Golf Estate Apartment near JW Marriott ",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 167
         },
@@ -846,7 +846,7 @@
       "name": "New Cairo Golf Estate Duplex with Panoramic Golf View ",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 167
         },
@@ -876,7 +876,7 @@
       "name": "New Cairo Hotspots Near EDNC Mall ",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 180
         },
@@ -901,7 +901,7 @@
       "name": "New Cairo | Meraviglia 4BR",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 188
         },
@@ -931,7 +931,7 @@
       "name": "New Cairo, Milena",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -961,7 +961,7 @@
       "name": "New Cairo, Milena",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -986,7 +986,7 @@
       "name": "New Cairo, Rivera",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -1011,7 +1011,7 @@
       "name": "New Cairo, Sahara",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -1036,7 +1036,7 @@
       "name": "New Cairo, Sakura",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -1061,7 +1061,7 @@
       "name": "New Cairo, Sequoia",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -1091,7 +1091,7 @@
       "name": "New Cairo, Varenna",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 134
         },
@@ -1116,7 +1116,7 @@
       "name": "October City | 2BR Apartment with Shared Pool",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 80
         },
@@ -1146,7 +1146,7 @@
       "name": "Private Home 2BDRM | WaterWay, New Cairo",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 115
         },
@@ -1161,7 +1161,7 @@
       "name": "Rivera at New Cairo Lake View Residence",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-22",
           "price": 146
         },
@@ -1186,7 +1186,7 @@
       "name": "Sahara",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-22",
           "price": 146
         },
@@ -1211,7 +1211,7 @@
       "name": "Sakura",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 333
         },
@@ -1241,7 +1241,7 @@
       "name": "Sheikh Zayed | New Giza | Near GEM & Mall of Arabia.",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 173
         },
@@ -1266,7 +1266,7 @@
       "name": "The Heart of Heliopolis at 76 El Hegaz Street",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 78
         },
@@ -1296,7 +1296,7 @@
       "name": "Varenna at New Cairo Lake View Residence",
       "ranges": [
         {
-          "from": "2026-08-15",
+          "from": "2026-08-16",
           "to": "2026-08-31",
           "price": 167
         },

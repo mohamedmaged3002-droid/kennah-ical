@@ -6,7 +6,7 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const cfg = require('./src/config');
-const { getApartment, mapLimit } = require('./src/api');
+const { listApartments, getApartment, mapLimit } = require('./src/api');
 const { toRanges, diffPrices, buildMessage } = require('./src/pricediff');
 
 const UNITS = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'units.json'), 'utf8'));
@@ -16,6 +16,20 @@ const OUT = path.join(__dirname, 'out');
 async function main() {
   const dry = process.argv.includes('--dry-run');
   fs.mkdirSync(OUT, { recursive: true });
+
+  // Roster drift, against Kennah's LIVE list rather than our mapping. sync.js
+  // already computes this hourly but only writes it to docs/report.json, which
+  // nothing reads — the same shape as the Mynt delisting that went unnoticed for
+  // 18 days (L-064). A unit appearing or vanishing is exactly the kind of thing
+  // that should reach a human, so it rides along in the daily digest.
+  let roster = [];
+  try { roster = await listApartments(); }
+  catch (e) { console.error(`roster fetch failed: ${e.message}`); }
+  const known = new Set(UNITS.map((u) => u.slug));
+  const liveSlugs = new Set(roster.map((a) => a.slug));
+  const newOnSite = roster.filter((a) => !known.has(a.slug)).map((a) => ({ slug: a.slug, name: a.name }));
+  const goneFromSite = UNITS.filter((u) => roster.length && !liveSlugs.has(u.slug))
+                            .map((u) => ({ wp: u.wp, slug: u.slug, name: u.name }));
 
   const current = {};
   const failed = [];
@@ -52,12 +66,19 @@ async function main() {
   const baseline = first ? {} : JSON.parse(fs.readFileSync(BASELINE, 'utf8')).units || {};
 
   const diff = diffPrices(baseline, current);
+  // Genuinely new/removed LISTINGS are a different signal from a mapped unit
+  // gaining or losing prices, so they are reported separately rather than merged.
+  diff.newOnSite = newOnSite;
+  diff.goneFromSite = goneFromSite;
   // Seeding run: everything is "new", which is not news.
   const msg = first ? null : buildMessage(diff);
 
   console.log(first
     ? 'baseline seeded — no email on the first run'
     : `changed=${diff.changed.length} added=${diff.added.length} removed=${diff.removed.length} nights=${diff.totalNights}`);
+  console.log(`roster: ${roster.length} live | NEW on site: ${newOnSite.length} | GONE from site: ${goneFromSite.length}`);
+  for (const n of newOnSite) console.log(`  NEW  ${n.slug}`);
+  for (const g of goneFromSite) console.log(`  GONE ${g.wp} ${g.slug}`);
   if (msg) console.log('\n' + msg.emailBody + '\n');
 
   if (dry) { console.log('dry run — no artifacts, baseline not advanced'); return; }

@@ -180,3 +180,25 @@ test('price ranges round-trip contiguous nights into one run', () => {
     { from: '2026-09-03', to: '2026-09-03', price: 120 },
   ]);
 });
+
+test('a brand-new listing on kennahstays.com is news even with no price movement', () => {
+  // sync.js already saw this hourly but wrote it only to report.json, which
+  // nothing reads — the L-064 shape. It must reach a human.
+  const quiet = { changed: [], added: [], removed: [], totalNights: 0 };
+  const m = buildMessage({ ...quiet, newOnSite: [{ slug: 'x', name: 'X' }], goneFromSite: [] });
+  assert.ok(m, 'a new listing must produce a message');
+  assert.match(m.emailSubject, /NEW listing/);
+  assert.match(m.emailBody, /needs a wp_post_id/);
+});
+
+test('a listing vanishing from kennahstays.com is news even with no price movement', () => {
+  const quiet = { changed: [], added: [], removed: [], totalNights: 0 };
+  const m = buildMessage({ ...quiet, newOnSite: [], goneFromSite: [{ wp: 92001, slug: 'x', name: 'X' }] });
+  assert.ok(m);
+  assert.match(m.emailSubject, /GONE/);
+});
+
+test('a genuinely quiet day still sends nothing', () => {
+  assert.equal(buildMessage({ changed: [], added: [], removed: [], totalNights: 0,
+                              newOnSite: [], goneFromSite: [] }), null);
+});

@@ -72,13 +72,17 @@ function diffPrices(baseline, current) {
 // null => nothing happened => send-alert.js sends NOTHING. The gate is here so
 // "no news" can never become a daily email.
 function buildMessage(diff, meta = {}) {
-  const { changed, added, removed, totalNights } = diff;
-  if (!changed.length && !added.length && !removed.length) return null;
+  const { changed, added, removed, totalNights, newOnSite = [], goneFromSite = [] } = diff;
+  // A new or vanished LISTING is news even on a day when no price moved.
+  if (!changed.length && !added.length && !removed.length
+      && !newOnSite.length && !goneFromSite.length) return null;
 
   const bits = [];
   if (changed.length) bits.push(`${changed.length} unit${changed.length > 1 ? 's' : ''} repriced`);
   if (added.length) bits.push(`${added.length} new`);
-  if (removed.length) bits.push(`${removed.length} gone`);
+  if (removed.length) bits.push(`${removed.length} unpriced`);
+  if (newOnSite.length) bits.push(`${newOnSite.length} NEW listing${newOnSite.length > 1 ? 's' : ''}`);
+  if (goneFromSite.length) bits.push(`${goneFromSite.length} listing${goneFromSite.length > 1 ? 's' : ''} GONE`);
   const emailSubject = `Kennah: ${bits.join(', ')}`;
 
   const lines = [`${emailSubject} (${totalNights} night${totalNights === 1 ? '' : 's'} affected).`, ''];
@@ -88,8 +92,16 @@ function buildMessage(diff, meta = {}) {
     lines.push(`      ${c.count} night(s) ${arrow}: $${c.minFrom} -> $${c.maxTo}`);
   }
   if (changed.length > 25) lines.push(`  ... and ${changed.length - 25} more (see attached sheet)`);
-  if (added.length) lines.push('', `NEW on kennahstays.com (need onboarding): ${added.join(', ')}`);
-  if (removed.length) lines.push('', `GONE from kennahstays.com (check for delist): ${removed.join(', ')}`);
+  if (newOnSite.length) {
+    lines.push('', 'NEW on kennahstays.com — not onboarded, needs a wp_post_id:');
+    for (const n of newOnSite) lines.push(`  ${n.name || n.slug}  (${n.slug})`);
+  }
+  if (goneFromSite.length) {
+    lines.push('', 'GONE from kennahstays.com — check for delist before the feed goes stale:');
+    for (const g of goneFromSite) lines.push(`  ${g.wp}  ${g.name || g.slug}`);
+  }
+  if (added.length) lines.push('', `Now priced (were not before): ${added.join(', ')}`);
+  if (removed.length) lines.push('', `Lost prices (check calendar): ${removed.join(', ')}`);
   lines.push('', 'Prices are Kennah\'s OTA rate in USD. Automated (kennah-ical).');
   if (meta.note) lines.push('', meta.note);
 

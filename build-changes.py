@@ -10,7 +10,7 @@ src = ROOT / "out" / "changes.json"
 if not src.exists():
     print("no changes.json — nothing to build"); raise SystemExit(0)
 d = json.loads(src.read_text())
-if not d.get("changed") and not d.get("added") and not d.get("removed"):
+if not any(d.get(k) for k in ("changed", "added", "removed", "newOnSite", "goneFromSite")):
     print("no changes — no sheet"); raise SystemExit(0)
 
 wb = Workbook(); ws = wb.active; ws.title = "Price changes"
@@ -35,13 +35,20 @@ for i, w in enumerate([12, 44, 12, 10, 10, 12, 11], start=1):
 ws.freeze_panes = "A2"
 ws.auto_filter.ref = f"A1:{get_column_letter(len(hdr))}{ws.max_row}"
 
-if d.get("added") or d.get("removed"):
+if any(d.get(k) for k in ("added", "removed", "newOnSite", "goneFromSite")):
     r = wb.create_sheet("Roster")
-    r.append(["change", "wp_post_id"])
-    r.cell(1, 1).font = Font(bold=True); r.cell(1, 2).font = Font(bold=True)
-    for wp in d.get("added", []): r.append(["NEW on kennahstays.com", wp])
-    for wp in d.get("removed", []): r.append(["GONE from kennahstays.com", wp])
-    r.column_dimensions["A"].width = 30; r.column_dimensions["B"].width = 14
+    r.append(["change", "wp_post_id", "unit", "slug"])
+    for c in range(1, 5):
+        r.cell(1, c).font = Font(bold=True, color="FFFFFF")
+        r.cell(1, c).fill = PatternFill("solid", fgColor="1F4E79")
+    for n in d.get("newOnSite", []):
+        r.append(["NEW listing — needs onboarding", "", n.get("name", ""), n.get("slug", "")])
+    for g in d.get("goneFromSite", []):
+        r.append(["GONE from site — check delist", g.get("wp", ""), g.get("name", ""), g.get("slug", "")])
+    for wp in d.get("added", []): r.append(["now priced", wp, "", ""])
+    for wp in d.get("removed", []): r.append(["lost prices — check calendar", wp, "", ""])
+    for i, w in enumerate([32, 13, 42, 42], start=1):
+        r.column_dimensions[chr(64 + i)].width = w
 
 out = ROOT / "out" / "kennah-price-changes.xlsx"
 wb.save(out)

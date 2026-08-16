@@ -24,6 +24,12 @@ jobs:
   prices:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    # Required to push the advanced baseline. Without it the job builds and emails
+    # fine and only the final commit 403s — which would leave the baseline frozen,
+    # so the FIRST real price change would then be re-detected and re-emailed every
+    # single day, exactly the noise this watch is designed to avoid.
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 

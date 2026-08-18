@@ -1,14 +1,19 @@
 {
-  "generatedAt": "2026-08-18T13:59:45.247Z",
+  "generatedAt": "2026-08-18T14:55:29.336Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
-  "written": 40,
+  "written": 32,
   "skipped": [
     {
       "wp": 92006,
       "slug": "3bdrm-stylish-retreat-arabesque",
       "reason": "upstream-sync-stale"
+    },
+    {
+      "wp": 92008,
+      "slug": "89b-16",
+      "reason": "absent-from-roster"
     },
     {
       "wp": 92009,
@@ -46,6 +51,11 @@
       "reason": "absent-from-roster"
     },
     {
+      "wp": 92031,
+      "slug": "milena",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92033,
       "slug": "nahda-serviced-apartment-luxury-3-bedroom-apartment",
       "reason": "no-availability-data"
@@ -61,6 +71,11 @@
       "reason": "absent-from-roster"
     },
     {
+      "wp": 92037,
+      "slug": "new-cairo-4br-penthouse-with-private-pool",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92038,
       "slug": "new-cairo-balboa",
       "reason": "absent-from-roster"
@@ -68,6 +83,21 @@
     {
       "wp": 92039,
       "slug": "new-cairo-catalina",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92040,
+      "slug": "new-cairo-duplex-with-private-pool",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92042,
+      "slug": "new-cairo-golf-estate",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92045,
+      "slug": "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
       "reason": "absent-from-roster"
     },
     {
@@ -111,18 +141,34 @@
       "reason": "absent-from-roster"
     },
     {
+      "wp": 92058,
+      "slug": "sahara",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92059,
+      "slug": "sakura",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92062,
       "slug": "varenna-at-new-cairo-lake-view-residence",
       "reason": "absent-from-roster"
     }
   ],
   "missingFromRoster": [
+    "89b-16",
     "lourina",
     "meraviglia-at-new-cairo-lake-view-residence",
+    "milena",
     "new-caiiro-sequoia",
     "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+    "new-cairo-4br-penthouse-with-private-pool",
     "new-cairo-balboa",
     "new-cairo-catalina",
+    "new-cairo-duplex-with-private-pool",
+    "new-cairo-golf-estate",
+    "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
     "new-cairo-meraviglia-4br",
     "new-cairo-milena",
     "new-cairo-rivera",
@@ -131,6 +177,8 @@
     "new-cairo-sequoia",
     "new-cairo-varenna",
     "rivera-at-new-cairo-lake-view-residence",
+    "sahara",
+    "sakura",
     "varenna-at-new-cairo-lake-view-residence"
   ],
   "unmappedOnSite": [
@@ -148,6 +196,14 @@
     "balboa-2bdr",
     "catalina-2bdr",
     "rivera-2bdr-3",
-    "varenna-3bdr"
+    "varenna-3bdr",
+    "saoirse-3bdr-pool",
+    "lourina-4bdr-pool",
+    "sakura-4bdr-pool",
+    "sahara-2bdr-2",
+    "milena-3bdr-2",
+    "milena-3bdr-3",
+    "aurelia-1bdr",
+    "aurelia-2bdr"
   ]
 }

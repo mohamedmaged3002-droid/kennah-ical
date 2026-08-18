@@ -1,14 +1,19 @@
 {
-  "generatedAt": "2026-08-18T13:59:45.247Z",
+  "generatedAt": "2026-08-18T14:55:29.336Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
-  "written": 40,
+  "written": 32,
   "skipped": [
     {
       "wp": 92006,
       "slug": "3bdrm-stylish-retreat-arabesque",
       "reason": "upstream-sync-stale"
+    },
+    {
+      "wp": 92008,
+      "slug": "89b-16",
+      "reason": "absent-from-roster"
     },
     {
       "wp": 92009,
@@ -46,6 +51,11 @@
       "reason": "absent-from-roster"
     },
     {
+      "wp": 92031,
+      "slug": "milena",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92033,
       "slug": "nahda-serviced-apartment-luxury-3-bedroom-apartment",
       "reason": "no-availability-data"
@@ -61,6 +71,11 @@
       "reason": "absent-from-roster"
     },
     {
+      "wp": 92037,
+      "slug": "new-cairo-4br-penthouse-with-private-pool",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92038,
       "slug": "new-cairo-balboa",
       "reason": "absent-from-roster"
@@ -68,6 +83,21 @@
     {
       "wp": 92039,
       "slug": "new-cairo-catalina",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92040,
+      "slug": "new-cairo-duplex-with-private-pool",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92042,
+      "slug": "new-cairo-golf-estate",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92045,
+      "slug": "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
       "reason": "absent-from-roster"
     },
     {
@@ -111,18 +141,34 @@
       "reason": "absent-from-roster"
     },
     {
+      "wp": 92058,
+      "slug": "sahara",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92059,
+      "slug": "sakura",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92062,
       "slug": "varenna-at-new-cairo-lake-view-residence",
       "reason": "absent-from-roster"
     }
   ],
   "missingFromRoster": [
+    "89b-16",
     "lourina",
     "meraviglia-at-new-cairo-lake-view-residence",
+    "milena",
     "new-caiiro-sequoia",
     "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+    "new-cairo-4br-penthouse-with-private-pool",
     "new-cairo-balboa",
     "new-cairo-catalina",
+    "new-cairo-duplex-with-private-pool",
+    "new-cairo-golf-estate",
+    "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
     "new-cairo-meraviglia-4br",
     "new-cairo-milena",
     "new-cairo-rivera",
@@ -131,6 +177,8 @@
     "new-cairo-sequoia",
     "new-cairo-varenna",
     "rivera-at-new-cairo-lake-view-residence",
+    "sahara",
+    "sakura",
     "varenna-at-new-cairo-lake-view-residence"
   ],
   "unmappedOnSite": [
@@ -148,7 +196,15 @@
     "balboa-2bdr",
     "catalina-2bdr",
     "rivera-2bdr-3",
-    "varenna-3bdr"
+    "varenna-3bdr",
+    "saoirse-3bdr-pool",
+    "lourina-4bdr-pool",
+    "sakura-4bdr-pool",
+    "sahara-2bdr-2",
+    "milena-3bdr-2",
+    "milena-3bdr-3",
+    "aurelia-1bdr",
+    "aurelia-2bdr"
   ],
   "properties": [
     {
@@ -164,9 +220,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.607Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.823Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.242Z"
+      "updatedAt": "2026-08-18T14:55:29.329Z"
     },
     {
       "wp": 92002,
@@ -181,9 +237,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.614Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.830Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.242Z"
+      "updatedAt": "2026-08-18T14:55:29.329Z"
     },
     {
       "wp": 92003,
@@ -198,9 +254,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.582Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.782Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.242Z"
+      "updatedAt": "2026-08-18T14:55:29.330Z"
     },
     {
       "wp": 92004,
@@ -215,9 +271,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.558Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.745Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.242Z"
+      "updatedAt": "2026-08-18T14:55:29.330Z"
     },
     {
       "wp": 92005,
@@ -232,9 +288,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.589Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.788Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.242Z"
+      "updatedAt": "2026-08-18T14:55:29.330Z"
     },
     {
       "wp": 92006,
@@ -264,9 +320,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.533Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.707Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.243Z"
+      "updatedAt": "2026-08-18T14:55:29.331Z"
     },
     {
       "wp": 92008,
@@ -328,9 +384,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.442Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.453Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.243Z"
+      "updatedAt": "2026-08-18T14:55:29.331Z"
     },
     {
       "wp": 92012,
@@ -345,9 +401,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.435Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.425Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.243Z"
+      "updatedAt": "2026-08-18T14:55:29.331Z"
     },
     {
       "wp": 92013,
@@ -362,9 +418,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.481Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.588Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.244Z"
+      "updatedAt": "2026-08-18T14:55:29.332Z"
     },
     {
       "wp": 92014,
@@ -379,9 +435,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.566Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.752Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.244Z"
+      "updatedAt": "2026-08-18T14:55:29.332Z"
     },
     {
       "wp": 92015,
@@ -396,9 +452,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.571Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.762Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.244Z"
+      "updatedAt": "2026-08-18T14:55:29.332Z"
     },
     {
       "wp": 92016,
@@ -413,9 +469,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.469Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.557Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.244Z"
+      "updatedAt": "2026-08-18T14:55:29.332Z"
     },
     {
       "wp": 92017,
@@ -430,9 +486,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.577Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.774Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.244Z"
+      "updatedAt": "2026-08-18T14:55:29.332Z"
     },
     {
       "wp": 92018,
@@ -447,9 +503,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.594Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.795Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.244Z"
+      "updatedAt": "2026-08-18T14:55:29.333Z"
     },
     {
       "wp": 92019,
@@ -464,9 +520,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.527Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.685Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.245Z"
+      "updatedAt": "2026-08-18T14:55:29.333Z"
     },
     {
       "wp": 92020,
@@ -481,9 +537,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.508Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.648Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.245Z"
+      "updatedAt": "2026-08-18T14:55:29.333Z"
     },
     {
       "wp": 92021,
@@ -513,9 +569,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.475Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.575Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.245Z"
+      "updatedAt": "2026-08-18T14:55:29.333Z"
     },
     {
       "wp": 92023,
@@ -530,9 +586,9 @@
       "ranges": 2,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.453Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.495Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.245Z"
+      "updatedAt": "2026-08-18T14:55:29.333Z"
     },
     {
       "wp": 92024,
@@ -547,9 +603,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.463Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.537Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.245Z"
+      "updatedAt": "2026-08-18T14:55:29.334Z"
     },
     {
       "wp": 92025,
@@ -564,9 +620,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.601Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.814Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.245Z"
+      "updatedAt": "2026-08-18T14:55:29.334Z"
     },
     {
       "wp": 92026,
@@ -581,9 +637,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.458Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.510Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.245Z"
+      "updatedAt": "2026-08-18T14:55:29.334Z"
     },
     {
       "wp": 92027,
@@ -679,9 +735,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.494Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.628Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.246Z"
+      "updatedAt": "2026-08-18T14:55:29.335Z"
     },
     {
       "wp": 92033,
@@ -728,9 +784,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.539Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.722Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.246Z"
+      "updatedAt": "2026-08-18T14:55:29.335Z"
     },
     {
       "wp": 92036,
@@ -830,9 +886,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.407Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.366Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.246Z"
+      "updatedAt": "2026-08-18T14:55:29.335Z"
     },
     {
       "wp": 92042,
@@ -864,9 +920,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.413Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.382Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.246Z"
+      "updatedAt": "2026-08-18T14:55:29.335Z"
     },
     {
       "wp": 92044,
@@ -881,9 +937,9 @@
       "ranges": 4,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.447Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.482Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.246Z"
+      "updatedAt": "2026-08-18T14:55:29.335Z"
     },
     {
       "wp": 92045,
@@ -915,9 +971,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.502Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.641Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.247Z"
+      "updatedAt": "2026-08-18T14:55:29.336Z"
     },
     {
       "wp": 92047,
@@ -966,9 +1022,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.419Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.395Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.247Z"
+      "updatedAt": "2026-08-18T14:55:29.336Z"
     },
     {
       "wp": 92050,
@@ -1068,9 +1124,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.488Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.605Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.247Z"
+      "updatedAt": "2026-08-18T14:55:29.336Z"
     },
     {
       "wp": 92056,
@@ -1085,9 +1141,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.547Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.739Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.247Z"
+      "updatedAt": "2026-08-18T14:55:29.336Z"
     },
     {
       "wp": 92057,
@@ -1153,9 +1209,9 @@
       "ranges": 1,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.428Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.415Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.247Z"
+      "updatedAt": "2026-08-18T14:55:29.336Z"
     },
     {
       "wp": 92061,
@@ -1170,9 +1226,9 @@
       "ranges": 3,
       "collapseStreak": 0,
       "syncStatus": "success",
-      "lastSyncedAt": "2026-08-18T13:43:35.520Z",
+      "lastSyncedAt": "2026-08-18T14:30:02.667Z",
       "firstDate": "2026-08-18",
-      "updatedAt": "2026-08-18T13:59:45.247Z"
+      "updatedAt": "2026-08-18T14:55:29.336Z"
     },
     {
       "wp": 92062,

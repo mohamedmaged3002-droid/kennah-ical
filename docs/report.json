@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-18T11:44:49.942Z",
+  "generatedAt": "2026-08-18T13:11:53.161Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
-  "written": 55,
+  "written": 40,
   "skipped": [
     {
       "wp": 92006,
@@ -36,11 +36,118 @@
       "reason": "no-availability-data"
     },
     {
+      "wp": 92029,
+      "slug": "lourina",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92030,
+      "slug": "meraviglia-at-new-cairo-lake-view-residence",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92033,
       "slug": "nahda-serviced-apartment-luxury-3-bedroom-apartment",
       "reason": "no-availability-data"
+    },
+    {
+      "wp": 92034,
+      "slug": "new-caiiro-sequoia",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92036,
+      "slug": "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92038,
+      "slug": "new-cairo-balboa",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92039,
+      "slug": "new-cairo-catalina",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92047,
+      "slug": "new-cairo-meraviglia-4br",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92048,
+      "slug": "new-cairo-milena",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92050,
+      "slug": "new-cairo-rivera",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92051,
+      "slug": "new-cairo-sahara",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92052,
+      "slug": "new-cairo-sakura",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92053,
+      "slug": "new-cairo-sequoia",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92054,
+      "slug": "new-cairo-varenna",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92057,
+      "slug": "rivera-at-new-cairo-lake-view-residence",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92062,
+      "slug": "varenna-at-new-cairo-lake-view-residence",
+      "reason": "absent-from-roster"
     }
   ],
-  "missingFromRoster": [],
-  "unmappedOnSite": []
+  "missingFromRoster": [
+    "lourina",
+    "meraviglia-at-new-cairo-lake-view-residence",
+    "new-caiiro-sequoia",
+    "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+    "new-cairo-balboa",
+    "new-cairo-catalina",
+    "new-cairo-meraviglia-4br",
+    "new-cairo-milena",
+    "new-cairo-rivera",
+    "new-cairo-sahara",
+    "new-cairo-sakura",
+    "new-cairo-sequoia",
+    "new-cairo-varenna",
+    "rivera-at-new-cairo-lake-view-residence",
+    "varenna-at-new-cairo-lake-view-residence"
+  ],
+  "unmappedOnSite": [
+    "varenna-2bdr",
+    "meraviglia-2bdr",
+    "milena-3bdr",
+    "lourina-2bdr",
+    "rivera-2bdr",
+    "meraviglia-4bdr",
+    "sequoia-3bdr",
+    "rivera-2bdr-2",
+    "sakura-2bdr",
+    "sequoia-2bdr",
+    "sahara-2bdr",
+    "balboa-2bdr",
+    "catalina-2bdr",
+    "rivera-2bdr-3",
+    "varenna-3bdr"
+  ]
 }

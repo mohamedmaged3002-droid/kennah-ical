@@ -1,14 +1,49 @@
 {
-  "generatedAt": "2026-08-16T03:15:05.642Z",
+  "generatedAt": "2026-08-19T03:13:46.762Z",
   "source": "kennah",
   "rosterCount": 62,
   "mappedCount": 62,
-  "written": 55,
+  "written": 0,
   "skipped": [
+    {
+      "wp": 92001,
+      "slug": "2bdrm-arabesque-retreat",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92002,
+      "slug": "2bdrm-arabesque-retreat-stylish-escape-in-cairos-historic-heart",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92003,
+      "slug": "2bdrm-star-apartment-mohandessin",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92004,
+      "slug": "2bdrm-stylish-retreat-arabesque",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92005,
+      "slug": "3bdrm-comfort-home-district-5",
+      "reason": "absent-from-roster"
+    },
     {
       "wp": 92006,
       "slug": "3bdrm-stylish-retreat-arabesque",
-      "reason": "upstream-sync-stale"
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92007,
+      "slug": "4br-modern-comfort-in-hyde-park-new-cairo",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92008,
+      "slug": "89b-16",
+      "reason": "absent-from-roster"
     },
     {
       "wp": 92009,
@@ -21,9 +56,84 @@
       "reason": "no-availability-data"
     },
     {
+      "wp": 92011,
+      "slug": "catalina",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92012,
+      "slug": "catalina-at-privado",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92013,
+      "slug": "chill-swim-1br-october-city",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92014,
+      "slug": "city-central-2bdrm-apt-mohandessin",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92015,
+      "slug": "city-central-studio-retreat-apt-mohandessin",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92016,
+      "slug": "cozy-duplex-apartment-cairo-heliopolis",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92017,
+      "slug": "cozy-studio-in-the-heart-of-mohandessin",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92018,
+      "slug": "festival-city-2br-maids-room-3-baths",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92019,
+      "slug": "garden-duplex-in-eastown-new-cairo-near-ednc-mall",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92020,
+      "slug": "giza-comfort-stay-minutes-from-the-pyramids",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92021,
       "slug": "hadiqa-serviced-apartment-bright-3-bedroom-apartment",
       "reason": "no-availability-data"
+    },
+    {
+      "wp": 92022,
+      "slug": "heart-of-new-cairo-with-balcony",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92023,
+      "slug": "heart-of-villette-sodic-new-cairo",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92024,
+      "slug": "heliopolis-near-citystars-almaza-mall",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92025,
+      "slug": "kennah-2bdrm-apartment-la-mirada-new-cairo",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92026,
+      "slug": "lasciac-at-downtown-cairo-3br-near-tahrir-sq",
+      "reason": "absent-from-roster"
     },
     {
       "wp": 92027,
@@ -36,11 +146,290 @@
       "reason": "no-availability-data"
     },
     {
+      "wp": 92029,
+      "slug": "lourina",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92030,
+      "slug": "meraviglia-at-new-cairo-lake-view-residence",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92031,
+      "slug": "milena",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92032,
+      "slug": "modern-3br-retreat-at-akoya-perfect-for-work-family-stays",
+      "reason": "absent-from-roster"
+    },
+    {
       "wp": 92033,
       "slug": "nahda-serviced-apartment-luxury-3-bedroom-apartment",
       "reason": "no-availability-data"
+    },
+    {
+      "wp": 92034,
+      "slug": "new-caiiro-sequoia",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92035,
+      "slug": "new-cairo-2bdrm-apt-auc-pearl-des-rois-comp",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92036,
+      "slug": "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92037,
+      "slug": "new-cairo-4br-penthouse-with-private-pool",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92038,
+      "slug": "new-cairo-balboa",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92039,
+      "slug": "new-cairo-catalina",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92040,
+      "slug": "new-cairo-duplex-with-private-pool",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92041,
+      "slug": "new-cairo-elegant-skyline-studio-overlooking-mirage-golf",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92042,
+      "slug": "new-cairo-golf-estate",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92043,
+      "slug": "new-cairo-golf-estate-apartment-at-mirage-residence",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92044,
+      "slug": "new-cairo-golf-estate-apartment-near-jw-marriott",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92045,
+      "slug": "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92046,
+      "slug": "new-cairo-hotspots-near-ednc-mall",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92047,
+      "slug": "new-cairo-meraviglia-4br",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92048,
+      "slug": "new-cairo-milena",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92049,
+      "slug": "new-cairo-milena-2",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92050,
+      "slug": "new-cairo-rivera",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92051,
+      "slug": "new-cairo-sahara",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92052,
+      "slug": "new-cairo-sakura",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92053,
+      "slug": "new-cairo-sequoia",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92054,
+      "slug": "new-cairo-varenna",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92055,
+      "slug": "october-city-2br-apartment-with-shared-pool",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92056,
+      "slug": "private-home-2bdrm-waterway-new-cairo",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92057,
+      "slug": "rivera-at-new-cairo-lake-view-residence",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92058,
+      "slug": "sahara",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92059,
+      "slug": "sakura",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92060,
+      "slug": "sheikh-zayed-new-giza-near-gem-mall-of-arabia",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92061,
+      "slug": "the-heart-of-heliopolis-at-76-el-hegaz-street",
+      "reason": "absent-from-roster"
+    },
+    {
+      "wp": 92062,
+      "slug": "varenna-at-new-cairo-lake-view-residence",
+      "reason": "absent-from-roster"
     }
   ],
-  "missingFromRoster": [],
-  "unmappedOnSite": []
+  "missingFromRoster": [
+    "2bdrm-arabesque-retreat",
+    "2bdrm-arabesque-retreat-stylish-escape-in-cairos-historic-heart",
+    "2bdrm-star-apartment-mohandessin",
+    "2bdrm-stylish-retreat-arabesque",
+    "3bdrm-comfort-home-district-5",
+    "3bdrm-stylish-retreat-arabesque",
+    "4br-modern-comfort-in-hyde-park-new-cairo",
+    "89b-16",
+    "catalina",
+    "catalina-at-privado",
+    "chill-swim-1br-october-city",
+    "city-central-2bdrm-apt-mohandessin",
+    "city-central-studio-retreat-apt-mohandessin",
+    "cozy-duplex-apartment-cairo-heliopolis",
+    "cozy-studio-in-the-heart-of-mohandessin",
+    "festival-city-2br-maids-room-3-baths",
+    "garden-duplex-in-eastown-new-cairo-near-ednc-mall",
+    "giza-comfort-stay-minutes-from-the-pyramids",
+    "heart-of-new-cairo-with-balcony",
+    "heart-of-villette-sodic-new-cairo",
+    "heliopolis-near-citystars-almaza-mall",
+    "kennah-2bdrm-apartment-la-mirada-new-cairo",
+    "lasciac-at-downtown-cairo-3br-near-tahrir-sq",
+    "lourina",
+    "meraviglia-at-new-cairo-lake-view-residence",
+    "milena",
+    "modern-3br-retreat-at-akoya-perfect-for-work-family-stays",
+    "new-caiiro-sequoia",
+    "new-cairo-2bdrm-apt-auc-pearl-des-rois-comp",
+    "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+    "new-cairo-4br-penthouse-with-private-pool",
+    "new-cairo-balboa",
+    "new-cairo-catalina",
+    "new-cairo-duplex-with-private-pool",
+    "new-cairo-elegant-skyline-studio-overlooking-mirage-golf",
+    "new-cairo-golf-estate",
+    "new-cairo-golf-estate-apartment-at-mirage-residence",
+    "new-cairo-golf-estate-apartment-near-jw-marriott",
+    "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
+    "new-cairo-hotspots-near-ednc-mall",
+    "new-cairo-meraviglia-4br",
+    "new-cairo-milena",
+    "new-cairo-milena-2",
+    "new-cairo-rivera",
+    "new-cairo-sahara",
+    "new-cairo-sakura",
+    "new-cairo-sequoia",
+    "new-cairo-varenna",
+    "october-city-2br-apartment-with-shared-pool",
+    "private-home-2bdrm-waterway-new-cairo",
+    "rivera-at-new-cairo-lake-view-residence",
+    "sahara",
+    "sakura",
+    "sheikh-zayed-new-giza-near-gem-mall-of-arabia",
+    "the-heart-of-heliopolis-at-76-el-hegaz-street",
+    "varenna-at-new-cairo-lake-view-residence"
+  ],
+  "unmappedOnSite": [
+    "varenna-2bdr",
+    "meraviglia-2bdr",
+    "milena-3bdr",
+    "lourina-2bdr",
+    "rivera-2bdr",
+    "meraviglia-4bdr",
+    "sequoia-3bdr",
+    "rivera-2bdr-2",
+    "sakura-2bdr",
+    "sequoia-2bdr",
+    "sahara-2bdr",
+    "balboa-2bdr",
+    "catalina-2bdr",
+    "rivera-2bdr-3",
+    "varenna-3bdr",
+    "saoirse-3bdr-pool",
+    "lourina-4bdr-pool",
+    "sakura-4bdr-pool",
+    "sahara-2bdr-2",
+    "milena-3bdr-2",
+    "milena-3bdr-3",
+    "aurelia-1bdr",
+    "aurelia-2bdr",
+    "aurelia-1bdr-2",
+    "aurelia-2bdr-2",
+    "milena-2bdr",
+    "meraviglia-3bdr",
+    "catalina-1bdr",
+    "catalina-3bdr",
+    "aurelia-2bdr-3",
+    "milena-1bdr",
+    "lasciac-3bdr",
+    "lourina-2bdr-2",
+    "lascaic-2bdr",
+    "milena-3bdr-4",
+    "sakura-1bdr",
+    "rivera-2bdr-4",
+    "saoirse-3bdr",
+    "rivera-3bdr",
+    "sakura-1bdr-2",
+    "sakura-3bdr",
+    "meraviglia-3bdr-2",
+    "lourina-4bdr",
+    "catalina-3bdr-2",
+    "milena-2bdr-2",
+    "sakura-2bdr-2",
+    "milena-2bdr-3",
+    "sequoia-2bdr-2",
+    "saoirse-1bdr",
+    "lourina-1bdr",
+    "meraviglia-2bdr-2",
+    "milena-3bdr-5",
+    "aurelia-2bdr-4",
+    "milena-2bdr-4",
+    "balboa-2bdr-2",
+    "lourina-2bdr-3"
+  ]
 }

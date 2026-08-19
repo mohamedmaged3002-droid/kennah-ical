@@ -1,7 +1,7 @@
 [
   {
     "wp": 92001,
-    "slug": "2bdrm-arabesque-retreat",
+    "slug": "balboa-2bdr-2",
     "name": "2BDRM Arabesque Retreat",
     "internalName": "A-C24-664",
     "compound": "downtown",
@@ -10,7 +10,7 @@
   },
   {
     "wp": 92002,
-    "slug": "2bdrm-arabesque-retreat-stylish-escape-in-cairos-historic-heart",
+    "slug": "lourina-2bdr-3",
     "name": "2BDRM Arabesque Retreat - Stylish Escape in Cairo's Historic Heart",
     "internalName": "A-C24-661",
     "compound": "downtown",
@@ -19,7 +19,7 @@
   },
   {
     "wp": 92003,
-    "slug": "2bdrm-star-apartment-mohandessin",
+    "slug": "meraviglia-2bdr-2",
     "name": "2BDRM Star Apartment | Mohandessin",
     "internalName": "M-105-904",
     "compound": "mohandessin",
@@ -28,7 +28,7 @@
   },
   {
     "wp": 92004,
-    "slug": "2bdrm-stylish-retreat-arabesque",
+    "slug": "milena-2bdr-3",
     "name": "2BDRM Stylish Retreat | Arabesque",
     "internalName": "A-C4-004",
     "compound": "downtown",
@@ -37,7 +37,7 @@
   },
   {
     "wp": 92005,
-    "slug": "3bdrm-comfort-home-district-5",
+    "slug": "milena-3bdr-5",
     "name": "3BDRM Comfort Home | District 5",
     "internalName": "D5-NHF-6A-221",
     "compound": "district-5",
@@ -46,7 +46,7 @@
   },
   {
     "wp": 92006,
-    "slug": "3bdrm-stylish-retreat-arabesque",
+    "slug": "catalina-3bdr-2",
     "name": "3BDRM Stylish Retreat | Arabesque",
     "internalName": "A-C24-501",
     "compound": "downtown",
@@ -55,7 +55,7 @@
   },
   {
     "wp": 92007,
-    "slug": "4br-modern-comfort-in-hyde-park-new-cairo",
+    "slug": "lourina-4bdr",
     "name": "4BR Modern Comfort in Hyde Park, New Cairo",
     "internalName": "HP-03-2201",
     "compound": "new-cairo",
@@ -64,7 +64,7 @@
   },
   {
     "wp": 92008,
-    "slug": "89b-16",
+    "slug": "milena-3bdr-2",
     "name": "89B-106",
     "internalName": "LVR-89B-106",
     "compound": "lake-view-residence",
@@ -91,7 +91,7 @@
   },
   {
     "wp": 92011,
-    "slug": "catalina",
+    "slug": "catalina-3bdr",
     "name": "Catalina",
     "internalName": "WGE-201-B",
     "compound": "west-golf-extension",
@@ -100,7 +100,7 @@
   },
   {
     "wp": 92012,
-    "slug": "catalina-at-privado",
+    "slug": "catalina-1bdr",
     "name": "Catalina at Privado",
     "internalName": "P-132-03-01-11",
     "compound": "madinty",
@@ -109,7 +109,7 @@
   },
   {
     "wp": 92013,
-    "slug": "chill-swim-1br-october-city",
+    "slug": "sakura-1bdr",
     "name": "Chill & Swim | 1BR October City",
     "internalName": "O-259-00-01",
     "compound": "motamayez-mtmz",
@@ -118,7 +118,7 @@
   },
   {
     "wp": 92014,
-    "slug": "city-central-2bdrm-apt-mohandessin",
+    "slug": "sequoia-2bdr-2",
     "name": "City Central 2BDRM Apt. | Mohandessin",
     "internalName": "M-105-901",
     "compound": "mohandessin",
@@ -127,7 +127,7 @@
   },
   {
     "wp": 92015,
-    "slug": "city-central-studio-retreat-apt-mohandessin",
+    "slug": "saoirse-1bdr",
     "name": "City Central Studio Retreat Apt. | Mohandessin",
     "internalName": "M-105-902",
     "compound": "mohandessin",
@@ -136,7 +136,7 @@
   },
   {
     "wp": 92016,
-    "slug": "cozy-duplex-apartment-cairo-heliopolis",
+    "slug": "lascaic-2bdr",
     "name": "Cozy Duplex Apartment | Cairo Heliopolis",
     "internalName": "MT-602-6-1",
     "compound": "heliopolis",
@@ -145,7 +145,7 @@
   },
   {
     "wp": 92017,
-    "slug": "cozy-studio-in-the-heart-of-mohandessin",
+    "slug": "lourina-1bdr",
     "name": "Cozy Studio in the Heart of Mohandessin",
     "internalName": "M-105-903",
     "compound": "mohandessin",
@@ -154,7 +154,7 @@
   },
   {
     "wp": 92018,
-    "slug": "festival-city-2br-maids-room-3-baths",
+    "slug": "aurelia-2bdr-4",
     "name": "Festival City 2BR, Maid's Room, 3 Baths",
     "internalName": "C-4200-441",
     "compound": "new-cairo",
@@ -163,7 +163,7 @@
   },
   {
     "wp": 92019,
-    "slug": "garden-duplex-in-eastown-new-cairo-near-ednc-mall",
+    "slug": "meraviglia-3bdr-2",
     "name": "Garden Duplex in Eastown-New Cairo, Near EDNC Mall",
     "internalName": "E-01-114",
     "compound": "eastown",
@@ -172,7 +172,7 @@
   },
   {
     "wp": 92020,
-    "slug": "giza-comfort-stay-minutes-from-the-pyramids",
+    "slug": "sakura-1bdr-2",
     "name": "Giza Comfort Stay - Minutes from the Pyramids ",
     "internalName": "PH-C3-02-10",
     "compound": "pyramids-hills",
@@ -190,7 +190,7 @@
   },
   {
     "wp": 92022,
-    "slug": "heart-of-new-cairo-with-balcony",
+    "slug": "milena-3bdr-4",
     "name": "Heart of New Cairo with Balcony",
     "internalName": "SR-182-0-1",
     "compound": "stone-residence",
@@ -199,7 +199,7 @@
   },
   {
     "wp": 92023,
-    "slug": "heart-of-villette-sodic-new-cairo",
+    "slug": "milena-1bdr",
     "name": "Heart of Villette Sodic | New Cairo",
     "internalName": "V-G4-02-22",
     "compound": "villette-sodic",
@@ -208,7 +208,7 @@
   },
   {
     "wp": 92024,
-    "slug": "heliopolis-near-citystars-almaza-mall",
+    "slug": "lourina-2bdr-2",
     "name": "Heliopolis Near Citystars & Almaza Mall",
     "internalName": "H-237-4-10",
     "compound": "heliopolis",
@@ -217,7 +217,7 @@
   },
   {
     "wp": 92025,
-    "slug": "kennah-2bdrm-apartment-la-mirada-new-cairo",
+    "slug": "milena-2bdr-4",
     "name": "Kennah 2BDRM apartment | La Mirada, New Cairo ",
     "internalName": "LM-02-111",
     "compound": "new-cairo",
@@ -226,7 +226,7 @@
   },
   {
     "wp": 92026,
-    "slug": "lasciac-at-downtown-cairo-3br-near-tahrir-sq",
+    "slug": "lasciac-3bdr",
     "name": "Lasciac at Downtown Cairo 3BR Near Tahrir Sq",
     "internalName": "DT-05-09-01",
     "compound": "downtown",
@@ -253,7 +253,7 @@
   },
   {
     "wp": 92029,
-    "slug": "lourina",
+    "slug": "lourina-2bdr",
     "name": "Lourina",
     "internalName": "WGE-201-A",
     "compound": "west-golf-extension",
@@ -262,7 +262,7 @@
   },
   {
     "wp": 92030,
-    "slug": "meraviglia-at-new-cairo-lake-view-residence",
+    "slug": "meraviglia-2bdr",
     "name": "Meraviglia at New Cairo Lake View Residence",
     "internalName": "LVR-97B-212",
     "compound": "lake-view-residence",
@@ -271,7 +271,7 @@
   },
   {
     "wp": 92031,
-    "slug": "milena",
+    "slug": "milena-3bdr-3",
     "name": "Milena",
     "internalName": "SR-269-103",
     "compound": "stone-residence",
@@ -280,7 +280,7 @@
   },
   {
     "wp": 92032,
-    "slug": "modern-3br-retreat-at-akoya-perfect-for-work-family-stays",
+    "slug": "saoirse-3bdr",
     "name": "Modern 3BR Retreat at Akoya | Perfect for Work & Family Stays",
     "internalName": "Ak-2-02-06",
     "compound": "akoya-residence",
@@ -298,7 +298,7 @@
   },
   {
     "wp": 92034,
-    "slug": "new-caiiro-sequoia",
+    "slug": "sequoia-2bdr",
     "name": "New Caiiro, Sequoia",
     "internalName": "SP-14-104",
     "compound": "silver-palm",
@@ -307,7 +307,7 @@
   },
   {
     "wp": 92035,
-    "slug": "new-cairo-2bdrm-apt-auc-pearl-des-rois-comp",
+    "slug": "milena-2bdr-2",
     "name": "New Cairo 2BDRM Apt, AUC | Pearl Des Rois Comp.",
     "internalName": "PDR-B2-3308",
     "compound": "new-cairo",
@@ -316,7 +316,7 @@
   },
   {
     "wp": 92036,
-    "slug": "new-cairo-2br-garden-apartment-near-ednc-cfc-mall",
+    "slug": "rivera-2bdr",
     "name": "New Cairo 2BR Garden Apartment Near EDNC & CFC Mall",
     "internalName": "ET-34-1B-02",
     "compound": "eastown",
@@ -325,7 +325,7 @@
   },
   {
     "wp": 92037,
-    "slug": "new-cairo-4br-penthouse-with-private-pool",
+    "slug": "lourina-4bdr-pool",
     "name": "New Cairo 4BR Penthouse with Private Pool",
     "internalName": "LVR-12B-302",
     "compound": "lake-view-residence",
@@ -334,7 +334,7 @@
   },
   {
     "wp": 92038,
-    "slug": "new-cairo-balboa",
+    "slug": "balboa-2bdr",
     "name": "New Cairo, Balboa",
     "internalName": "SP-14-310",
     "compound": "silver-palm",
@@ -343,7 +343,7 @@
   },
   {
     "wp": 92039,
-    "slug": "new-cairo-catalina",
+    "slug": "catalina-2bdr",
     "name": "New Cairo, Catalina",
     "internalName": "SP-15-209",
     "compound": "silver-palm",
@@ -352,7 +352,7 @@
   },
   {
     "wp": 92040,
-    "slug": "new-cairo-duplex-with-private-pool",
+    "slug": "saoirse-3bdr-pool",
     "name": "New Cairo Duplex with Private Pool",
     "internalName": "LVR-10-003",
     "compound": "lake-view-residence",
@@ -361,7 +361,7 @@
   },
   {
     "wp": 92041,
-    "slug": "new-cairo-elegant-skyline-studio-overlooking-mirage-golf",
+    "slug": "aurelia-1bdr-2",
     "name": "New Cairo Elegant Skyline Studio Overlooking Mirage Golf",
     "internalName": "MRC-04-403",
     "compound": "golf-estate",
@@ -370,7 +370,7 @@
   },
   {
     "wp": 92042,
-    "slug": "new-cairo-golf-estate",
+    "slug": "aurelia-1bdr",
     "name": "New cairo Golf Estate",
     "internalName": "MRC-04-402",
     "compound": "golf-estate",
@@ -379,7 +379,7 @@
   },
   {
     "wp": 92043,
-    "slug": "new-cairo-golf-estate-apartment-at-mirage-residence",
+    "slug": "aurelia-2bdr-2",
     "name": "New Cairo Golf Estate Apartment at Mirage Residence",
     "internalName": "MRC-04-4400",
     "compound": "golf-estate",
@@ -388,7 +388,7 @@
   },
   {
     "wp": 92044,
-    "slug": "new-cairo-golf-estate-apartment-near-jw-marriott",
+    "slug": "aurelia-2bdr-3",
     "name": "New Cairo Golf Estate Apartment near JW Marriott ",
     "internalName": "MRC-404",
     "compound": "golf-estate",
@@ -397,7 +397,7 @@
   },
   {
     "wp": 92045,
-    "slug": "new-cairo-golf-estate-duplex-with-panoramic-golf-view",
+    "slug": "aurelia-2bdr",
     "name": "New Cairo Golf Estate Duplex with Panoramic Golf View ",
     "internalName": "MRC-504",
     "compound": "golf-estate",
@@ -406,7 +406,7 @@
   },
   {
     "wp": 92046,
-    "slug": "new-cairo-hotspots-near-ednc-mall",
+    "slug": "rivera-3bdr",
     "name": "New Cairo Hotspots Near EDNC Mall ",
     "internalName": "ET-24-2-24",
     "compound": "eastown",
@@ -415,7 +415,7 @@
   },
   {
     "wp": 92047,
-    "slug": "new-cairo-meraviglia-4br",
+    "slug": "meraviglia-4bdr",
     "name": "New Cairo | Meraviglia 4BR",
     "internalName": "SR-277-104",
     "compound": "stone-residence",
@@ -424,7 +424,7 @@
   },
   {
     "wp": 92048,
-    "slug": "new-cairo-milena",
+    "slug": "milena-3bdr",
     "name": "New Cairo, Milena",
     "internalName": "A-01-003",
     "compound": "akoya-residence",
@@ -433,7 +433,7 @@
   },
   {
     "wp": 92049,
-    "slug": "new-cairo-milena-2",
+    "slug": "milena-2bdr",
     "name": "New Cairo, Milena",
     "internalName": "SP-15-312",
     "compound": "silver-palm",
@@ -442,7 +442,7 @@
   },
   {
     "wp": 92050,
-    "slug": "new-cairo-rivera",
+    "slug": "rivera-2bdr-2",
     "name": "New Cairo, Rivera",
     "internalName": "SP-12-207",
     "compound": "silver-palm",
@@ -451,7 +451,7 @@
   },
   {
     "wp": 92051,
-    "slug": "new-cairo-sahara",
+    "slug": "sahara-2bdr",
     "name": "New Cairo, Sahara",
     "internalName": "SP-14-207",
     "compound": "silver-palm",
@@ -460,7 +460,7 @@
   },
   {
     "wp": 92052,
-    "slug": "new-cairo-sakura",
+    "slug": "sakura-2bdr",
     "name": "New Cairo, Sakura",
     "internalName": "SP-12-310",
     "compound": "silver-palm",
@@ -469,7 +469,7 @@
   },
   {
     "wp": 92053,
-    "slug": "new-cairo-sequoia",
+    "slug": "sequoia-3bdr",
     "name": "New Cairo, Sequoia",
     "internalName": "A-11-106",
     "compound": "akoya-residence",
@@ -478,7 +478,7 @@
   },
   {
     "wp": 92054,
-    "slug": "new-cairo-varenna",
+    "slug": "varenna-2bdr",
     "name": "New Cairo, Varenna",
     "internalName": "SP-12-104",
     "compound": "silver-palm",
@@ -487,7 +487,7 @@
   },
   {
     "wp": 92055,
-    "slug": "october-city-2br-apartment-with-shared-pool",
+    "slug": "rivera-2bdr-4",
     "name": "October City | 2BR Apartment with Shared Pool",
     "internalName": "O-259-00-02",
     "compound": "motamayez-mtmz",
@@ -496,7 +496,7 @@
   },
   {
     "wp": 92056,
-    "slug": "private-home-2bdrm-waterway-new-cairo",
+    "slug": "sakura-2bdr-2",
     "name": "Private Home 2BDRM | WaterWay, New Cairo",
     "internalName": "W-07-331",
     "compound": "new-cairo",
@@ -505,7 +505,7 @@
   },
   {
     "wp": 92057,
-    "slug": "rivera-at-new-cairo-lake-view-residence",
+    "slug": "rivera-2bdr-3",
     "name": "Rivera at New Cairo Lake View Residence",
     "internalName": "LVR-71-105",
     "compound": "lake-view-residence",
@@ -514,7 +514,7 @@
   },
   {
     "wp": 92058,
-    "slug": "sahara",
+    "slug": "sahara-2bdr-2",
     "name": "Sahara",
     "internalName": "LVR-55B-304",
     "compound": "lake-view-residence",
@@ -523,7 +523,7 @@
   },
   {
     "wp": 92059,
-    "slug": "sakura",
+    "slug": "sakura-4bdr-pool",
     "name": "Sakura",
     "internalName": "LVR-12B-303",
     "compound": "lake-view-residence",
@@ -532,7 +532,7 @@
   },
   {
     "wp": 92060,
-    "slug": "sheikh-zayed-new-giza-near-gem-mall-of-arabia",
+    "slug": "meraviglia-3bdr",
     "name": "Sheikh Zayed | New Giza | Near GEM & Mall of Arabia.",
     "internalName": "NG-5A-111",
     "compound": "new-giza",
@@ -541,7 +541,7 @@
   },
   {
     "wp": 92061,
-    "slug": "the-heart-of-heliopolis-at-76-el-hegaz-street",
+    "slug": "sakura-3bdr",
     "name": "The Heart of Heliopolis at 76 El Hegaz Street",
     "internalName": "H-76-458",
     "compound": "heliopolis",
@@ -550,7 +550,7 @@
   },
   {
     "wp": 92062,
-    "slug": "varenna-at-new-cairo-lake-view-residence",
+    "slug": "varenna-3bdr",
     "name": "Varenna at New Cairo Lake View Residence",
     "internalName": "LVR-28A-210",
     "compound": "lake-view-residence",

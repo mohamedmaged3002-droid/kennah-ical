@@ -61,7 +61,12 @@ jobs:
         run: node send-alert.js
 
       - name: Commit the advanced baseline
-        if: ${{ inputs.dry_run != true }}
+        # always() (not just !dry_run): if send-alert fails, the baseline MUST still
+        # advance. Otherwise the same change is re-detected and re-emailed daily —
+        # which is exactly what happened on 2026-08-18 when nodemailer was missing
+        # from package.json: the job failed at the email step, this step was skipped,
+        # and the run was stuck repeating.
+        if: ${{ always() && inputs.dry_run != true }}
         run: |
           git config user.name  "kennah-ical[bot]"
           git config user.email "kennah-ical@users.noreply.github.com"
